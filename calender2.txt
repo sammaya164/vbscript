@@ -1,0 +1,178 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+6:I[76,["185","static/chunks/app/layout-a24cc29d45a5ce04.js"],"ThemeSwitcher"]
+4:["slug","calender2","d"]
+7:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+8:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+9:{"display":"inline-block"}
+a:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["AMkc6tatsjp8p4K3-VcRn",[[["",{"children":["(blog)",{"children":[["slug","calender2","d"],{"children":["__PAGE__?{\"slug\":\"calender2\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["(blog)",{"children":[["slug","calender2","d"],{"children":["__PAGE__",{},[["$L1","$L2",[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/b6dd24d3fdd5bfe9.css","precedence":"next","crossOrigin":"$undefined"}]]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(blog)","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/ce90c4206395b4a9.css","precedence":"next","crossOrigin":"$undefined"}]],["$","main",null,{"children":["$","div",null,{"className":"p-1 md:p-8","children":["$","div",null,{"className":"lg:flex py-2","children":[["$","div",null,{"className":"sidebar overflow-x-visible lg:border-r lg:overflow-y-scroll py-4 min-w-80 lg:w-1/5","children":["$","nav",null,{"children":[["$","input",null,{"id":"ac-toc","type":"checkbox","className":"peer/toc hidden"}],["$","label",null,{"htmlFor":"ac-toc","className":"   accodiontoc mb-1   relative before:absolute after:absolute    z-10 after:z-11 before:z-12   peer-checked/toc:hover:after:-rotate-90   peer-checked/toc:bg-[#333]   peer-checked/toc:text-white   peer-checked/toc:before:bg-white   peer-checked/toc:after:bg-white   after:duration-300   py-2 pl-4 pr-10    text-xs font-bold   border border-solid rounded   border-white hover:border-[#bdc1c4]   inline-block   text-[#7a8288] hover:text-white   hover:bg-[#333]   before:content-[''] after:content-['']   before:w-2.5 before:h-0.5 after:w-0.5 after:h-2.5   before:right-4 before:top-4 after:right-5  after:top-3   before:bg-[#7a8288] after:bg-[#7a8288]   hover:after:bg-white hover:before:bg-white   lg:hidden   ","children":"メニュー"}],["$","div",null,{"className":"hidden lg:block peer-checked/toc:block mt-8 lg:mt-4","children":["$","section",null,{"children":[["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/helloworld","className":"hover:underline","children":"Hello, World!と表示させる"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/msgbox","className":"hover:underline","children":"MsgBox関数"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/inputbox","className":"hover:underline","children":"InputBox関数"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/array","className":"hover:underline","children":"配列(1) 配列の作り方"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/filter","className":"hover:underline","children":"配列(2) 配列の操作"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/fso","className":"hover:underline","children":"FileSystemObjectオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/path","className":"hover:underline","children":"ファイル名、パス名を取得する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/file","className":"hover:underline","children":"File、Folder、Drive、TextStreamオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/rename","className":"hover:underline","children":"ファイル名の頭に日付を加える"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/filelist","className":"hover:underline","children":"ファイル一覧を取得する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb1","className":"hover:underline","children":"Access形式データベースへの接続（1）OLEDBプロバイダー"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb2","className":"hover:underline","children":"Access形式データベースへの接続（2）DBファイルとテーブルの追加"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb3","className":"hover:underline","children":"Access形式データベースへの接続（3）列の追加"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb4","className":"hover:underline","children":"Access形式データベースへの接続（4）レコードの登録と削除"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/adox","className":"hover:underline","children":"ADOとADOXのオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mnist","className":"hover:underline","children":"バイナリファイルを読む"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/class","className":"hover:underline","children":"クラスを自作する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender1","className":"hover:underline","children":"カレンダー計算（1）日付からMJDへの変換"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender2","className":"hover:underline","children":"カレンダー計算（2）MJDから日付への変換"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender3","className":"hover:underline","children":"カレンダー計算（3）万年カレンダー"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/encoder","className":"hover:underline","children":"VBScriptの暗号化"}]}]}]]}]}]]}]}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(blog)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]}]}]],null],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/741e77bcaef201b5.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/vbscript/favicon/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/vbscript/favicon/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/vbscript/favicon/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/vbscript/favicon/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/vbscript/favicon/safari-pinned-tab.svg","color":"#000000"}],["$","link",null,{"rel":"shortcut icon","href":"/vbscript/favicon/favicon.ico"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"msapplication-config","content":"/vbscript/favicon/browserconfig.xml"}],["$","meta",null,{"name":"theme-color","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/vbscript/feed.xml"}]]}],["$","body",null,{"className":"__className_4eacb2 dark:bg-slate-900 dark:text-slate-400","children":[["$","$L6",null,{}],["$","header",null,{"className":"border-b border-neutral-200 dark:bg-stars","children":["$","div",null,{"className":"container px-8","children":["$","div",null,{"className":"py-16 flex flex-col lg:flex-row items-center","children":[["$","h2",null,{"className":"text-2xl lg:text-4xl font-bold tracking-tight lg:tracking-tighter leading-tight lg:w-1/3","children":[["$","a",null,{"href":"/vbscript","className":"hover:underline","children":"VBScriptさんま屋"}],"."]}],["$","h4",null,{"className":"text-center text-lg","children":"VBScriptの個人的なメモです (´・ω・`)"}]]}]}]}],["$","div",null,{"className":"min-h-1/2","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$7","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$8","children":"404"}],["$","div",null,{"style":"$9","children":["$","h2",null,{"style":"$a","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800","children":["$","div",null,{"className":"container px-8","children":["$","div",null,{"className":"py-28 flex flex-col lg:flex-row items-center","children":[["$","h3",null,{"className":"text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2","children":"Statically Generated with Next.js."}],["$","div",null,{"className":"flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2","children":[["$","a",null,{"href":"https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates","className":"mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0","children":"Read Documentation"}],["$","a",null,{"href":"https://github.com/sammaya164/vbscript","className":"mx-3 font-bold hover:underline","children":"View on GitHub"}]]}]]}]}]}]]}]]}]],null],null],["$Lb",null]]]]
+c:T2fde,<nav class="toc"><ol class="toc-level toc-level-1"><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#修正ユリウス日から日付へ変換する">修正ユリウス日から日付へ変換する</a></li></ol></nav><h2 id="修正ユリウス日から日付へ変換する">修正ユリウス日から日付へ変換する</h2>
+<p>MJDからグレゴリオ暦とユリウス暦の日付へ変換するプログラム。</p>
+<pre><code class="hljs language-vbs"><span class="hljs-comment">'MJDから日付へ変換する</span>
+
+<span class="hljs-keyword">Dim</span> mjd <span class="hljs-comment">'修正ユリウス日(MJD)</span>
+<span class="hljs-keyword">Dim</span> msg <span class="hljs-comment">'表示するメッセージ</span>
+<span class="hljs-keyword">Dim</span> cal
+
+<span class="hljs-keyword">Set</span> cal = <span class="hljs-keyword">New</span> C_Calender
+
+mjd = <span class="hljs-number">60676</span> <span class="hljs-comment">'デフォルト値として2025/1/1のMJD</span>
+
+<span class="hljs-keyword">Do</span>
+    mjd = <span class="hljs-built_in">InputBox</span>(<span class="hljs-string">"MJDを入力してください。"</span>, ,mjd)
+    <span class="hljs-keyword">If</span> mjd = <span class="hljs-string">""</span> <span class="hljs-keyword">Then</span> <span class="hljs-keyword">Exit</span> <span class="hljs-keyword">Do</span> <span class="hljs-comment">'キャンセルが押された場合は終了</span>
+    mjd = <span class="hljs-built_in">CDbl</span>(mjd) <span class="hljs-comment">'文字列から数値に変換</span>
+
+    msg = <span class="hljs-string">"MJD="</span> &#x26; mjd &#x26; vbCr &#x26; vbCr
+    msg = msg &#x26; <span class="hljs-string">"グレゴリオ暦"</span> &#x26; vbCr
+    cal.Mode = <span class="hljs-number">1</span>
+    msg = msg &#x26; cal.<span class="hljs-keyword">Execute</span>(mjd) &#x26; vbCr &#x26; vbCr
+    msg = msg &#x26; <span class="hljs-string">"ユリウス暦"</span> &#x26; vbCr
+    cal.Mode = <span class="hljs-number">2</span>
+    msg = msg &#x26; cal.<span class="hljs-keyword">Execute</span>(mjd) &#x26; vbCr
+    Msgbox msg,, <span class="hljs-string">"修正ユリウス日"</span>
+<span class="hljs-keyword">Loop</span>
+
+
+<span class="hljs-keyword">Class</span> C_Calender
+    <span class="hljs-keyword">Private</span> m_type
+    <span class="hljs-keyword">Private</span> zeroDay <span class="hljs-comment">'それぞれの暦における紀元前1年2月29日のMJD</span>
+    <span class="hljs-keyword">Private</span> arrYears
+    <span class="hljs-keyword">Private</span> arrDays
+
+
+    <span class="hljs-keyword">Private</span> <span class="hljs-keyword">Sub</span> <span class="hljs-keyword">Class_Initialize</span>()
+        arrYears = <span class="hljs-built_in">Array</span>(<span class="hljs-number">0</span>,  <span class="hljs-number">1</span>,   <span class="hljs-number">4</span>,  <span class="hljs-number">100</span>,   <span class="hljs-number">400</span>)
+    <span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span>
+
+
+    <span class="hljs-keyword">Public</span> <span class="hljs-keyword">Property</span> <span class="hljs-keyword">Let</span> Mode(val)
+        m_type = val
+
+        <span class="hljs-keyword">If</span> val = <span class="hljs-number">1</span> <span class="hljs-keyword">Then</span> <span class="hljs-comment">'グレゴリオ暦の場合</span>
+            zeroDay = <span class="hljs-number">-678882</span>
+            arrDays  = <span class="hljs-built_in">Array</span>(<span class="hljs-number">1</span>,<span class="hljs-number">365</span>,<span class="hljs-number">1461</span>,<span class="hljs-number">36524</span>,<span class="hljs-number">146097</span>)
+
+        <span class="hljs-keyword">ElseIf</span> val = <span class="hljs-number">2</span> <span class="hljs-keyword">Then</span> <span class="hljs-comment">'ユリウス暦の場合</span>
+            zeroDay = <span class="hljs-number">-678884</span>
+            arrDays  = <span class="hljs-built_in">Array</span>(<span class="hljs-number">1</span>,<span class="hljs-number">365</span>,<span class="hljs-number">1461</span>)
+        
+        <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+    <span class="hljs-keyword">End</span> <span class="hljs-keyword">Property</span>
+
+
+    <span class="hljs-keyword">Public</span> <span class="hljs-keyword">Function</span> <span class="hljs-keyword">Execute</span>(mjd)
+    <span class="hljs-comment">'MJDに対応する日付を返す</span>
+        <span class="hljs-keyword">Dim</span> y, m, d, a
+
+        <span class="hljs-comment">'MJDをそれぞれの暦の西暦0年(紀元前1年)2月29日を第0日とした日数へ変換</span>
+        d = mjd - zeroDay
+        y = <span class="hljs-number">0</span>
+        m = <span class="hljs-number">3</span>
+
+        <span class="hljs-comment">'年の計算</span>
+        a = Div(d, arrDays)
+        y = y + Mul(a, arrYears)
+        d = a(<span class="hljs-number">0</span>)
+
+        <span class="hljs-comment">'月の計算</span>
+        <span class="hljs-keyword">If</span> d &#x3C; <span class="hljs-number">1</span> <span class="hljs-keyword">Then</span> <span class="hljs-comment">'dは小数点以下で時刻を表していることに注意</span>
+        <span class="hljs-comment">'2月末日の場合</span>
+            m = <span class="hljs-number">2</span> <span class="hljs-comment">'2月</span>
+            <span class="hljs-keyword">If</span> Leap<span class="hljs-built_in">Year</span>(a) <span class="hljs-keyword">Then</span>
+                d = <span class="hljs-number">29</span> + d
+            <span class="hljs-keyword">Else</span>
+                d = <span class="hljs-number">28</span> + d
+            <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+        <span class="hljs-keyword">Else</span> <span class="hljs-comment">'2月末日以外の場合</span>
+            <span class="hljs-keyword">Do</span> <span class="hljs-keyword">While</span> Month<span class="hljs-built_in">Day</span>(m) &#x3C; d
+                m = m + <span class="hljs-number">1</span>
+            <span class="hljs-keyword">Loop</span>
+            d = d - Month<span class="hljs-built_in">Day</span>(m - <span class="hljs-number">1</span>)
+            <span class="hljs-keyword">If</span> m > <span class="hljs-number">12</span> <span class="hljs-keyword">Then</span>
+                y = y + <span class="hljs-number">1</span>
+                m = m - <span class="hljs-number">12</span>
+            <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+        <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+        <span class="hljs-keyword">Execute</span> =  <span class="hljs-built_in">Join</span>(<span class="hljs-built_in">Array</span>(y,m,<span class="hljs-built_in">Round</span>(d, <span class="hljs-number">5</span>)), <span class="hljs-string">"/"</span>) <span class="hljs-comment">'日は小数点以下5桁まで</span>
+    <span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span>
+
+
+    <span class="hljs-keyword">Private</span> <span class="hljs-keyword">Function</span> Leap<span class="hljs-built_in">Year</span>(a)
+    <span class="hljs-comment">'うるう年ならTrue、そうでなければFalseを返す</span>
+    <span class="hljs-comment">'aは配列</span>
+        LeapYear = <span class="hljs-literal">False</span>
+
+        <span class="hljs-comment">'グレゴリオ暦の場合</span>
+        <span class="hljs-keyword">If</span> m_type = <span class="hljs-number">1</span> <span class="hljs-keyword">Then</span>
+            <span class="hljs-keyword">If</span> a(<span class="hljs-number">1</span>) = <span class="hljs-number">0</span> <span class="hljs-keyword">And</span> (a(<span class="hljs-number">2</span>) &#x3C;> <span class="hljs-number">0</span> <span class="hljs-keyword">Or</span> a(<span class="hljs-number">3</span>) = <span class="hljs-number">0</span>) <span class="hljs-keyword">Then</span>
+                LeapYear = <span class="hljs-literal">True</span>
+            <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+        <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+
+        <span class="hljs-comment">'ユリウス暦の場合</span>
+        <span class="hljs-keyword">If</span> m_type = <span class="hljs-number">2</span> <span class="hljs-keyword">Then</span>
+            <span class="hljs-keyword">If</span> a(<span class="hljs-number">1</span>) = <span class="hljs-number">0</span> <span class="hljs-keyword">Then</span>
+                LeapYear = <span class="hljs-literal">True</span>
+            <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+        <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+    <span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span>
+
+
+    <span class="hljs-keyword">Function</span> Month<span class="hljs-built_in">Day</span>(M)
+    <span class="hljs-comment">'2月末日を第0日としてM月末日までの日数を返す(M=2～13)</span>
+        MonthDay = <span class="hljs-built_in">Int</span>(<span class="hljs-number">30.59</span> * (M - <span class="hljs-number">1</span>)) - <span class="hljs-number">30</span>
+    <span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span>
+
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Class</span>
+
+
+<span class="hljs-keyword">Function</span> Div(val, arr)
+<span class="hljs-comment">'例えばarr=[1,365,1461]の場合、a(0)+365*a(1)+1461*a(2)=valとなる配列aを返す</span>
+    <span class="hljs-keyword">Dim</span> i, iMax
+    <span class="hljs-keyword">Dim</span> a <span class="hljs-comment">'戻り値となる配列</span>
+
+    iMax = <span class="hljs-built_in">UBound</span>(arr)
+    <span class="hljs-keyword">ReDim</span> a(iMax)
+    a(<span class="hljs-number">0</span>) = val
+    <span class="hljs-keyword">For</span> i = iMax <span class="hljs-keyword">To</span> <span class="hljs-number">1</span> <span class="hljs-keyword">Step</span> <span class="hljs-number">-1</span>
+        a(i) = <span class="hljs-built_in">Int</span>(a(<span class="hljs-number">0</span>) / arr(i))   <span class="hljs-comment">'商の整数部</span>
+        a(<span class="hljs-number">0</span>) = a(<span class="hljs-number">0</span>) - arr(i) * a(i) <span class="hljs-comment">'余り(>0)</span>
+    <span class="hljs-keyword">Next</span>
+    Div = a
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span>
+
+
+<span class="hljs-keyword">Function</span> Mul(arr1, arr2)
+<span class="hljs-comment">'2つの配列の「内積」を返す</span>
+    <span class="hljs-keyword">Dim</span> i, iMax
+    <span class="hljs-keyword">Dim</span> a <span class="hljs-comment">'戻り値となる配列</span>
+
+    <span class="hljs-keyword">If</span> <span class="hljs-built_in">UBound</span>(arr1) &#x3C; <span class="hljs-built_in">UBound</span>(arr2) <span class="hljs-keyword">Then</span>
+        iMax = <span class="hljs-built_in">UBound</span>(arr1)
+    <span class="hljs-keyword">Else</span>
+        iMax = <span class="hljs-built_in">UBound</span>(arr2)
+    <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+
+    <span class="hljs-keyword">For</span> i = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> iMax
+        a = a + arr1(i) * arr2(i)
+    <span class="hljs-keyword">Next</span>
+    Mul = a
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span>
+
+</code></pre>
+<h3 id="実行例">実行例</h3>
+<p>ダブルクリックしてMJDを入力すると、ダイアログボックスが表示される。以下は<code>60676</code>と入力した場合の表示例。</p>
+<pre><code class="hljs language-text">MJD=60676
+
+グレゴリオ暦
+2025/1/1
+
+ユリウス暦
+2024/12/19
+
+</code></pre>
+<p>もしユリウス暦を現代まで使い続けていたら、実際の季節の移り変わりに対し13日ほど暦が遅れていた。例えば冬至が1月4日頃になっていた。</p>2:["$","article",null,{"className":"mb-32 pt-6 lg:px-6","children":[[["$","h1",null,{"className":"text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-left","children":"カレンダー計算（2）MJDから日付への変換"}],["$","div",null,{"className":"mb-6 text-lg","children":["$","time",null,{"dateTime":"2024-11-22T00:00:00.000Z","children":"2024/11/22"}]}]],["$","div",null,{"className":"markdown-styles_markdown__ORfR8","dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"カレンダー計算（2）MJDから日付への変換 | VBScriptさんま屋"}],["$","meta","3",{"name":"description","content":"VBScriptの個人的なメモです"}],["$","meta","4",{"property":"og:title","content":"カレンダー計算（2）MJDから日付への変換"}],["$","meta","5",{"property":"og:description","content":"VBScriptの個人的なメモです"}],["$","meta","6",{"property":"og:image","content":"https://www.sammaya.jp/test/assets/img/stars.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"カレンダー計算（2）MJDから日付への変換"}],["$","meta","9",{"name":"twitter:description","content":"VBScriptの個人的なメモです"}],["$","meta","10",{"name":"twitter:image","content":"https://www.sammaya.jp/test/assets/img/stars.jpg"}]]
+1:null

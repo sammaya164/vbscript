@@ -1,0 +1,334 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/vbscript/_next/static/css/741e77bcaef201b5.css" data-precedence="next"/><link rel="stylesheet" href="/vbscript/_next/static/css/ce90c4206395b4a9.css" data-precedence="next"/><link rel="stylesheet" href="/vbscript/_next/static/css/b6dd24d3fdd5bfe9.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/vbscript/_next/static/chunks/webpack-6154b19b1850f5a1.js"/><script src="/vbscript/_next/static/chunks/fd9d1056-d9c6beefe29fb10d.js" async=""></script><script src="/vbscript/_next/static/chunks/117-234de04a4e857196.js" async=""></script><script src="/vbscript/_next/static/chunks/main-app-b0e285e9e555fa9c.js" async=""></script><script src="/vbscript/_next/static/chunks/app/layout-a24cc29d45a5ce04.js" async=""></script><title>バイナリファイルを読む | VBScriptさんま屋</title><meta name="description" content="VBScriptの個人的なメモです"/><meta property="og:title" content="バイナリファイルを読む"/><meta property="og:description" content="VBScriptの個人的なメモです"/><meta property="og:image" content="https://www.sammaya.jp/test/assets/img/stars.jpg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="バイナリファイルを読む"/><meta name="twitter:description" content="VBScriptの個人的なメモです"/><meta name="twitter:image" content="https://www.sammaya.jp/test/assets/img/stars.jpg"/><link rel="apple-touch-icon" sizes="180x180" href="/vbscript/favicon/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/vbscript/favicon/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/vbscript/favicon/favicon-16x16.png"/><link rel="manifest" href="/vbscript/favicon/site.webmanifest"/><link rel="mask-icon" href="/vbscript/favicon/safari-pinned-tab.svg" color="#000000"/><link rel="shortcut icon" href="/vbscript/favicon/favicon.ico"/><meta name="msapplication-TileColor" content="#000000"/><meta name="msapplication-config" content="/vbscript/favicon/browserconfig.xml"/><meta name="theme-color" content="#000"/><link rel="alternate" type="application/rss+xml" href="/vbscript/feed.xml"/><script src="/vbscript/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="__className_4eacb2 dark:bg-slate-900 dark:text-slate-400"><script>(e=>{let[t,n,r]=["system","dark","light"],i=()=>{let e=document.createElement("style");return e.textContent="*,*:after,*:before{transition:none !important;}",document.head.appendChild(e),()=>{getComputedStyle(document.body),setTimeout(()=>document.head.removeChild(e),1)}},a=matchMedia(`(prefers-color-scheme: ${n})`);window.updateDOM=()=>{let o=i(),l=localStorage.getItem(e)??t,s=a.matches?n:r,c=l===t?s:l,u=document.documentElement.classList;c===n?u.add(n):u.remove(n),document.documentElement.setAttribute("data-mode",l),o()},window.updateDOM(),a.addEventListener("change",window.updateDOM)})('nextjs-blog-starter-theme')</script><button class="switch_switch__v3CFJ"></button><header class="border-b border-neutral-200 dark:bg-stars"><div class="container px-8"><div class="py-16 flex flex-col lg:flex-row items-center"><h2 class="text-2xl lg:text-4xl font-bold tracking-tight lg:tracking-tighter leading-tight lg:w-1/3"><a href="/vbscript" class="hover:underline">VBScriptさんま屋</a>.</h2><h4 class="text-center text-lg">VBScriptの個人的なメモです (´・ω・`)</h4></div></div></header><div class="min-h-1/2"><main><div class="p-1 md:p-8"><div class="lg:flex py-2"><div class="sidebar overflow-x-visible lg:border-r lg:overflow-y-scroll py-4 min-w-80 lg:w-1/5"><nav><input id="ac-toc" type="checkbox" class="peer/toc hidden"/><label for="ac-toc" class="   accodiontoc mb-1   relative before:absolute after:absolute    z-10 after:z-11 before:z-12   peer-checked/toc:hover:after:-rotate-90   peer-checked/toc:bg-[#333]   peer-checked/toc:text-white   peer-checked/toc:before:bg-white   peer-checked/toc:after:bg-white   after:duration-300   py-2 pl-4 pr-10    text-xs font-bold   border border-solid rounded   border-white hover:border-[#bdc1c4]   inline-block   text-[#7a8288] hover:text-white   hover:bg-[#333]   before:content-[&#x27;&#x27;] after:content-[&#x27;&#x27;]   before:w-2.5 before:h-0.5 after:w-0.5 after:h-2.5   before:right-4 before:top-4 after:right-5  after:top-3   before:bg-[#7a8288] after:bg-[#7a8288]   hover:after:bg-white hover:before:bg-white   lg:hidden   ">メニュー</label><div class="hidden lg:block peer-checked/toc:block mt-8 lg:mt-4"><section><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/helloworld" class="hover:underline">Hello, World!と表示させる</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/msgbox" class="hover:underline">MsgBox関数</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/inputbox" class="hover:underline">InputBox関数</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/array" class="hover:underline">配列(1) 配列の作り方</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/filter" class="hover:underline">配列(2) 配列の操作</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/fso" class="hover:underline">FileSystemObjectオブジェクト</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/path" class="hover:underline">ファイル名、パス名を取得する</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/file" class="hover:underline">File、Folder、Drive、TextStreamオブジェクト</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/rename" class="hover:underline">ファイル名の頭に日付を加える</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/filelist" class="hover:underline">ファイル一覧を取得する</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/mdb1" class="hover:underline">Access形式データベースへの接続（1）OLEDBプロバイダー</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/mdb2" class="hover:underline">Access形式データベースへの接続（2）DBファイルとテーブルの追加</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/mdb3" class="hover:underline">Access形式データベースへの接続（3）列の追加</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/mdb4" class="hover:underline">Access形式データベースへの接続（4）レコードの登録と削除</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/adox" class="hover:underline">ADOとADOXのオブジェクト</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/mnist" class="hover:underline">バイナリファイルを読む</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/class" class="hover:underline">クラスを自作する</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/calender1" class="hover:underline">カレンダー計算（1）日付からMJDへの変換</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/calender2" class="hover:underline">カレンダー計算（2）MJDから日付への変換</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/calender3" class="hover:underline">カレンダー計算（3）万年カレンダー</a></h3></div><div><h3 class="text-lg mb-3 leading-snug"><a href="/vbscript/encoder" class="hover:underline">VBScriptの暗号化</a></h3></div></section></div></nav></div><article class="mb-32 pt-6 lg:px-6"><h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-left">バイナリファイルを読む</h1><div class="mb-6 text-lg"><time dateTime="2024-11-11T00:00:00.000Z">2024/11/11</time></div><div class="markdown-styles_markdown__ORfR8"><nav class="toc"><ol class="toc-level toc-level-1"><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#概要">概要</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#バイナリファイルの入手">バイナリファイルの入手</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#streamオブジェクト">Streamオブジェクト</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#訓練用画像を表示する">訓練用画像を表示する</a></li></ol></nav><h2 id="概要">概要</h2>
+<p>ADO.Streamオブジェクトを使ってバイナリファイルを読む。</p>
+<h2 id="バイナリファイルの入手">バイナリファイルの入手</h2>
+<p>ニューラルネットワークの訓練と評価に使用されている、MNISTデータベース(手書き数字画像のデータ)を <a href="https://yann.lecun.com/exdb/mnist/">https://yann.lecun.com/exdb/mnist/</a> からダウンロードする。</p>
+<p>注) 2024年11月11日現在、ダウンロードできなかった。</p>
+<ul>
+<li>train-images-idx3-ubyte.gz</li>
+<li>train-labels-idx1-ubyte.gz</li>
+<li>t10k-images-idx3-ubyte.gz</li>
+<li>t10k-labels-idx1-ubyte.gz</li>
+</ul>
+<p>圧縮されているので7-Zipなどを使って展開する。</p>
+<table>
+<thead>
+<tr>
+<th>ファイル名</th>
+<th>説明</th>
+<th>Byte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>train-images.idx3-ubyte</td>
+<td>60,000枚分の訓練用画像</td>
+<td>47,040,016</td>
+</tr>
+<tr>
+<td>train-labels.idx1-ubyte</td>
+<td>訓練用画像の正解ラベル</td>
+<td>60,008</td>
+</tr>
+<tr>
+<td>t10k-images.idx3-ubyte</td>
+<td>10,000枚分の評価用画像</td>
+<td>7,840,016</td>
+</tr>
+<tr>
+<td>t10k-labels.idx1-ubyte</td>
+<td>評価用画像の正解ラベル</td>
+<td>10,008</td>
+</tr>
+</tbody>
+</table>
+<p>これらはバイナリファイルであり、1枚ずつの画像ファイルではない。</p>
+<h3 id="train-imagesidx3-ubytet10k-imagesidx3-ubyteのファイル構造">train-images.idx3-ubyte、t10k-images.idx3-ubyteのファイル構造</h3>
+<table>
+<thead>
+<tr>
+<th>データ</th>
+<th>サイズ</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ヘッダー</td>
+<td>16byte</td>
+<td></td>
+</tr>
+<tr>
+<td>1枚目</td>
+<td>784byte</td>
+<td>横28×縦28=784ピクセル<br/>1ピクセルあたり1byteで0～255のグレースケールを表す</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td>n枚目</td>
+<td>784byte</td>
+<td>同上</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>16byte+784byte/枚×60,000枚=47,040,016byte</li>
+<li>16byte+784byte/枚×10,000枚=7,840,016byte</li>
+</ul>
+<h3 id="train-labelsidx1-ubytet10k-labelsidx1-ubyteのファイル構造">train-labels.idx1-ubyte、t10k-labels.idx1-ubyteのファイル構造</h3>
+<table>
+<thead>
+<tr>
+<th>データ</th>
+<th>サイズ</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ヘッダー</td>
+<td>8byte</td>
+<td></td>
+</tr>
+<tr>
+<td>1枚目</td>
+<td>1byte</td>
+<td>0～9のいずれかの数値を表している</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td>n枚目</td>
+<td>1byte</td>
+<td>同上</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>8byte+1byte/枚×60,000枚=60,008byte</li>
+<li>8byte+1byte/枚×10,000枚=10,008byte</li>
+</ul>
+<h2 id="streamオブジェクト">Streamオブジェクト</h2>
+<p>Streamオブジェクトはテキストファイルやバイナリファイルを開くことができる。</p>
+<h3 id="プロパティ">プロパティ</h3>
+<table>
+<thead>
+<tr>
+<th>プロパティ</th>
+<th>説明</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Charset</td>
+<td>保存するときの文字コード</td>
+<td></td>
+</tr>
+<tr>
+<td>EOS</td>
+<td>ストリーム位置の末尾であればTrue</td>
+<td>True/False</td>
+</tr>
+<tr>
+<td>LineSeparator</td>
+<td>テキストの改行文字</td>
+<td></td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>Streamのアクセスモード</td>
+<td></td>
+</tr>
+<tr>
+<td>Position</td>
+<td>Stream内の現在位置</td>
+<td>先頭は0</td>
+</tr>
+<tr>
+<td>Size</td>
+<td>Streamのバイト数</td>
+<td></td>
+</tr>
+<tr>
+<td>State</td>
+<td>Streamの状態</td>
+<td></td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Stream内のデータ型</td>
+<td>1:バイナリ<br/>2:テキスト</td>
+</tr>
+</tbody>
+</table>
+<h3 id="メソッド">メソッド</h3>
+<table>
+<thead>
+<tr>
+<th>メソッド</th>
+<th>説明</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cancel</td>
+<td>非同期Streamを停止</td>
+<td></td>
+</tr>
+<tr>
+<td>Close</td>
+<td>Streamを閉じる</td>
+<td></td>
+</tr>
+<tr>
+<td>CopyTo</td>
+<td>Streamの内容を別のStreamにコピーする</td>
+<td></td>
+</tr>
+<tr>
+<td>Flush</td>
+<td>Streamの基になるオブジェクトに書き込む</td>
+<td></td>
+</tr>
+<tr>
+<td>LoadFromFile</td>
+<td>ファイルを開く</td>
+<td></td>
+</tr>
+<tr>
+<td>Open</td>
+<td>Streamを開く</td>
+<td></td>
+</tr>
+<tr>
+<td>Read</td>
+<td>Streamからバイトを読み取る</td>
+<td>Type=1のとき</td>
+</tr>
+<tr>
+<td>ReadText</td>
+<td>Streamからテキストを読み取る</td>
+<td>Type=2のとき</td>
+</tr>
+<tr>
+<td>SaveToFile</td>
+<td>ファイルに保存する</td>
+<td></td>
+</tr>
+<tr>
+<td>SetEOS</td>
+<td>ストリーム位置の末尾を設定する</td>
+<td></td>
+</tr>
+<tr>
+<td>SkipLine</td>
+<td>行をスキップする</td>
+<td>Type=2のとき</td>
+</tr>
+<tr>
+<td>Write</td>
+<td>バイトをStreamに入力する</td>
+<td>Type=1のとき</td>
+</tr>
+<tr>
+<td>WriteText</td>
+<td>テキストをStreamに入力する</td>
+<td>Type=2のとき</td>
+</tr>
+</tbody>
+</table>
+<h3 id="参考">参考</h3>
+<p><a href="https://learn.microsoft.com/ja-jp/sql/ado/reference/ado-api/stream-object-ado?source=recommendations&#x26;view=sql-server-ver16">Streamオブジェクト(ADO)(MicroSoft)</a></p>
+<h2 id="訓練用画像を表示する">訓練用画像を表示する</h2>
+<p>バイナリファイルからデータを取得し、疑似的な画像をダイアログボックス上に表示する。<br>
+表示させるデータはランダムに決定する。</p>
+<h3 id="プログラムの説明">プログラムの説明</h3>
+<ol>
+<li>Streamオブジェクトをバイナリモードで開いて、LoadFromFileでファイルを取得する。</li>
+<li>StreamオブジェクトのReadメソッドで1バイトずつのバイトデータを読む。</li>
+<li>読むたびに、現在位置は次のバイトへ移動する。</li>
+<li>バイトデータにAscB関数を使って0～255の数値へ変換する。</li>
+<li>数値が127以下なら□、128以上なら■として疑似画像を構成する。</li>
+</ol>
+<pre><code class="hljs language-vbs"><span class="hljs-comment">'手書き数字画像のバイナリファイルを読んで、疑似的な画像を表示する</span>
+<span class="hljs-keyword">Dim</span> path1, path2
+
+<span class="hljs-comment">'MNISTデータベースファイルをC:\samplesに保存している場合</span>
+path1 = <span class="hljs-string">"C:\samples\train-images.idx3-ubyte"</span> <span class="hljs-comment">'画像データ</span>
+path2 = <span class="hljs-string">"C:\samples\train-labels.idx1-ubyte"</span> <span class="hljs-comment">'値データ</span>
+
+<span class="hljs-keyword">Dim</span> strm1, strm2
+
+<span class="hljs-keyword">Set</span> strm1 = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"ADODB.Stream"</span>)
+<span class="hljs-keyword">Set</span> strm2 = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"ADODB.Stream"</span>)
+
+strm1.Type = <span class="hljs-number">1</span> <span class="hljs-comment">'BINARY</span>
+strm1.Open
+strm1.LoadFromFile(path1)
+
+strm2.Type = <span class="hljs-number">1</span> <span class="hljs-comment">'BINARY</span>
+strm2.Open
+strm2.LoadFromFile(path2)
+
+<span class="hljs-keyword">Call</span> <span class="hljs-keyword">Randomize</span>() <span class="hljs-comment">'乱数ジェネレータを初期化</span>
+
+<span class="hljs-keyword">Dim</span> num, img, lbl
+
+<span class="hljs-comment">'キャンセルボタンが押されるまで繰り返す</span>
+<span class="hljs-keyword">Do</span>
+    num = <span class="hljs-built_in">Int</span>(Rnd * <span class="hljs-number">60000</span>) <span class="hljs-comment">'0～59999のランダムな整数</span>
+    img = GetImage(num, strm1) <span class="hljs-comment">'文字で作った疑似的な画像</span>
+    lbl = GetValue(num, strm2) <span class="hljs-comment">'正解の数値</span>
+
+    <span class="hljs-comment">'表示する</span>
+    <span class="hljs-keyword">If</span> <span class="hljs-built_in">Msgbox</span>(img, vbOKCancel, <span class="hljs-string">"正解: "</span> &#x26; lbl) = vbCancel <span class="hljs-keyword">Then</span>
+        <span class="hljs-keyword">Exit</span> <span class="hljs-keyword">Do</span>
+    <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+<span class="hljs-keyword">Loop</span>
+
+strm1.Close
+strm2.Close
+<span class="hljs-comment">'以上で終了</span>
+
+
+<span class="hljs-keyword">Function</span> GetImage(n, sm)
+<span class="hljs-comment">'文字で作った疑似的な画像を取得する</span>
+    <span class="hljs-keyword">Dim</span> i, j <span class="hljs-comment">'画像の横と縦の座標</span>
+    <span class="hljs-keyword">Dim</span> bt
+    <span class="hljs-keyword">Dim</span> buf
+
+    sm.Position = <span class="hljs-number">16</span> + <span class="hljs-number">784</span> * n <span class="hljs-comment">'現在位置をn+1番目の画像データの先頭に移動する</span>
+    
+    <span class="hljs-comment">'1画像の各ピクセルデータから□と■で作成した疑似的な画像を作成する</span>
+    <span class="hljs-keyword">For</span> j = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> <span class="hljs-number">27</span>
+        <span class="hljs-keyword">For</span> i = <span class="hljs-number">0</span> <span class="hljs-keyword">To</span> <span class="hljs-number">27</span>
+            bt = AscB(sm.Read(<span class="hljs-number">1</span>)) <span class="hljs-comment">'1バイト読んで数字に変換</span>
+            <span class="hljs-keyword">If</span> bt &#x3C; <span class="hljs-number">128</span> <span class="hljs-keyword">Then</span>
+                buf = buf &#x26; <span class="hljs-string">"□"</span>
+            <span class="hljs-keyword">Else</span>
+                buf = buf &#x26; <span class="hljs-string">"■"</span>
+            <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span>
+        <span class="hljs-keyword">Next</span>
+        buf = buf &#x26; vbCr
+    <span class="hljs-keyword">Next</span>
+
+    GetImage = buf
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span>
+
+
+<span class="hljs-keyword">Function</span> GetValue(n, sm)
+<span class="hljs-comment">'正解の数値を取得する</span>
+    sm.Position = <span class="hljs-number">8</span> + n <span class="hljs-comment">'現在位置をn+1番目の値データに移動する</span>
+    GetValue = AscB(sm.Read(<span class="hljs-number">1</span>)) <span class="hljs-comment">'1バイト読んで数字に変換</span>
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Function</span>
+</code></pre>
+<h3 id="実行結果">実行結果</h3>
+<p><img src="./assets/img/mnist/mnist.jpg" alt="実行結果"></p></div></article></div></div></main></div><footer class="bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800"><div class="container px-8"><div class="py-28 flex flex-col lg:flex-row items-center"><h3 class="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">Statically Generated with Next.js.</h3><div class="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2"><a href="https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates" class="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0">Read Documentation</a><a href="https://github.com/sammaya164/vbscript" class="mx-3 font-bold hover:underline">View on GitHub</a></div></div></div></footer><script src="/vbscript/_next/static/chunks/webpack-6154b19b1850f5a1.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/vbscript/_next/static/css/741e77bcaef201b5.css\",\"style\"]\n2:HL[\"/vbscript/_next/static/css/ce90c4206395b4a9.css\",\"style\"]\n3:HL[\"/vbscript/_next/static/css/b6dd24d3fdd5bfe9.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"4:I[2846,[],\"\"]\n7:I[4707,[],\"\"]\n9:I[6423,[],\"\"]\na:I[76,[\"185\",\"static/chunks/app/layout-a24cc29d45a5ce04.js\"],\"ThemeSwitcher\"]\n10:I[1060,[],\"\"]\n8:[\"slug\",\"mnist\",\"d\"]\nb:{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"}\nc:{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"}\nd:{\"display\":\"inline-block\"}\ne:{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0}\n11:[]\n"])</script><script>self.__next_f.push([1,"0:[\"$\",\"$L4\",null,{\"buildId\":\"AMkc6tatsjp8p4K3-VcRn\",\"assetPrefix\":\"/vbscript\",\"urlParts\":[\"\",\"mnist\"],\"initialTree\":[\"\",{\"children\":[\"(blog)\",{\"children\":[[\"slug\",\"mnist\",\"d\"],{\"children\":[\"__PAGE__?{\\\"slug\\\":\\\"mnist\\\"}\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"(blog)\",{\"children\":[[\"slug\",\"mnist\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L5\",\"$L6\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/vbscript/_next/static/css/b6dd24d3fdd5bfe9.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]],null],null]},[null,[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(blog)\",\"children\",\"$8\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/vbscript/_next/static/css/ce90c4206395b4a9.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"main\",null,{\"children\":[\"$\",\"div\",null,{\"className\":\"p-1 md:p-8\",\"children\":[\"$\",\"div\",null,{\"className\":\"lg:flex py-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"sidebar overflow-x-visible lg:border-r lg:overflow-y-scroll py-4 min-w-80 lg:w-1/5\",\"children\":[\"$\",\"nav\",null,{\"children\":[[\"$\",\"input\",null,{\"id\":\"ac-toc\",\"type\":\"checkbox\",\"className\":\"peer/toc hidden\"}],[\"$\",\"label\",null,{\"htmlFor\":\"ac-toc\",\"className\":\"   accodiontoc mb-1   relative before:absolute after:absolute    z-10 after:z-11 before:z-12   peer-checked/toc:hover:after:-rotate-90   peer-checked/toc:bg-[#333]   peer-checked/toc:text-white   peer-checked/toc:before:bg-white   peer-checked/toc:after:bg-white   after:duration-300   py-2 pl-4 pr-10    text-xs font-bold   border border-solid rounded   border-white hover:border-[#bdc1c4]   inline-block   text-[#7a8288] hover:text-white   hover:bg-[#333]   before:content-[''] after:content-['']   before:w-2.5 before:h-0.5 after:w-0.5 after:h-2.5   before:right-4 before:top-4 after:right-5  after:top-3   before:bg-[#7a8288] after:bg-[#7a8288]   hover:after:bg-white hover:before:bg-white   lg:hidden   \",\"children\":\"メニュー\"}],[\"$\",\"div\",null,{\"className\":\"hidden lg:block peer-checked/toc:block mt-8 lg:mt-4\",\"children\":[\"$\",\"section\",null,{\"children\":[[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/helloworld\",\"className\":\"hover:underline\",\"children\":\"Hello, World!と表示させる\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/msgbox\",\"className\":\"hover:underline\",\"children\":\"MsgBox関数\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/inputbox\",\"className\":\"hover:underline\",\"children\":\"InputBox関数\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/array\",\"className\":\"hover:underline\",\"children\":\"配列(1) 配列の作り方\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/filter\",\"className\":\"hover:underline\",\"children\":\"配列(2) 配列の操作\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/fso\",\"className\":\"hover:underline\",\"children\":\"FileSystemObjectオブジェクト\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/path\",\"className\":\"hover:underline\",\"children\":\"ファイル名、パス名を取得する\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/file\",\"className\":\"hover:underline\",\"children\":\"File、Folder、Drive、TextStreamオブジェクト\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/rename\",\"className\":\"hover:underline\",\"children\":\"ファイル名の頭に日付を加える\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/filelist\",\"className\":\"hover:underline\",\"children\":\"ファイル一覧を取得する\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/mdb1\",\"className\":\"hover:underline\",\"children\":\"Access形式データベースへの接続（1）OLEDBプロバイダー\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/mdb2\",\"className\":\"hover:underline\",\"children\":\"Access形式データベースへの接続（2）DBファイルとテーブルの追加\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/mdb3\",\"className\":\"hover:underline\",\"children\":\"Access形式データベースへの接続（3）列の追加\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/mdb4\",\"className\":\"hover:underline\",\"children\":\"Access形式データベースへの接続（4）レコードの登録と削除\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/adox\",\"className\":\"hover:underline\",\"children\":\"ADOとADOXのオブジェクト\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/mnist\",\"className\":\"hover:underline\",\"children\":\"バイナリファイルを読む\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/class\",\"className\":\"hover:underline\",\"children\":\"クラスを自作する\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/calender1\",\"className\":\"hover:underline\",\"children\":\"カレンダー計算（1）日付からMJDへの変換\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/calender2\",\"className\":\"hover:underline\",\"children\":\"カレンダー計算（2）MJDから日付への変換\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/calender3\",\"className\":\"hover:underline\",\"children\":\"カレンダー計算（3）万年カレンダー\"}]}]}],[\"$\",\"div\",null,{\"children\":[\"$\",\"h3\",null,{\"className\":\"text-lg mb-3 leading-snug\",\"children\":[\"$\",\"a\",null,{\"href\":\"/vbscript/encoder\",\"className\":\"hover:underline\",\"children\":\"VBScriptの暗号化\"}]}]}]]}]}]]}]}],[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(blog)\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[]}]]}]}]}]],null],null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/vbscript/_next/static/css/741e77bcaef201b5.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"apple-touch-icon\",\"sizes\":\"180x180\",\"href\":\"/vbscript/favicon/apple-touch-icon.png\"}],[\"$\",\"link\",null,{\"rel\":\"icon\",\"type\":\"image/png\",\"sizes\":\"32x32\",\"href\":\"/vbscript/favicon/favicon-32x32.png\"}],[\"$\",\"link\",null,{\"rel\":\"icon\",\"type\":\"image/png\",\"sizes\":\"16x16\",\"href\":\"/vbscript/favicon/favicon-16x16.png\"}],[\"$\",\"link\",null,{\"rel\":\"manifest\",\"href\":\"/vbscript/favicon/site.webmanifest\"}],[\"$\",\"link\",null,{\"rel\":\"mask-icon\",\"href\":\"/vbscript/favicon/safari-pinned-tab.svg\",\"color\":\"#000000\"}],[\"$\",\"link\",null,{\"rel\":\"shortcut icon\",\"href\":\"/vbscript/favicon/favicon.ico\"}],[\"$\",\"meta\",null,{\"name\":\"msapplication-TileColor\",\"content\":\"#000000\"}],[\"$\",\"meta\",null,{\"name\":\"msapplication-config\",\"content\":\"/vbscript/favicon/browserconfig.xml\"}],[\"$\",\"meta\",null,{\"name\":\"theme-color\",\"content\":\"#000\"}],[\"$\",\"link\",null,{\"rel\":\"alternate\",\"type\":\"application/rss+xml\",\"href\":\"/vbscript/feed.xml\"}]]}],[\"$\",\"body\",null,{\"className\":\"__className_4eacb2 dark:bg-slate-900 dark:text-slate-400\",\"children\":[[\"$\",\"$La\",null,{}],[\"$\",\"header\",null,{\"className\":\"border-b border-neutral-200 dark:bg-stars\",\"children\":[\"$\",\"div\",null,{\"className\":\"container px-8\",\"children\":[\"$\",\"div\",null,{\"className\":\"py-16 flex flex-col lg:flex-row items-center\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-2xl lg:text-4xl font-bold tracking-tight lg:tracking-tighter leading-tight lg:w-1/3\",\"children\":[[\"$\",\"a\",null,{\"href\":\"/vbscript\",\"className\":\"hover:underline\",\"children\":\"VBScriptさんま屋\"}],\".\"]}],[\"$\",\"h4\",null,{\"className\":\"text-center text-lg\",\"children\":\"VBScriptの個人的なメモです (´・ω・`)\"}]]}]}]}],[\"$\",\"div\",null,{\"className\":\"min-h-1/2\",\"children\":[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":\"$b\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":\"$c\",\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":\"$d\",\"children\":[\"$\",\"h2\",null,{\"style\":\"$e\",\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[]}]}],[\"$\",\"footer\",null,{\"className\":\"bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"container px-8\",\"children\":[\"$\",\"div\",null,{\"className\":\"py-28 flex flex-col lg:flex-row items-center\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2\",\"children\":\"Statically Generated with Next.js.\"}],[\"$\",\"div\",null,{\"className\":\"flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2\",\"children\":[[\"$\",\"a\",null,{\"href\":\"https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates\",\"className\":\"mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0\",\"children\":\"Read Documentation\"}],[\"$\",\"a\",null,{\"href\":\"https://github.com/sammaya164/vbscript\",\"className\":\"mx-3 font-bold hover:underline\",\"children\":\"View on GitHub\"}]]}]]}]}]}]]}]]}]],null],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$Lf\"],\"globalErrorComponent\":\"$10\",\"missingSlots\":\"$W11\"}]\n"])</script><script>self.__next_f.push([1,"12:T2ca9,"])</script><script>self.__next_f.push([1,"\u003cnav class=\"toc\"\u003e\u003col class=\"toc-level toc-level-1\"\u003e\u003cli class=\"toc-item toc-item-h2\"\u003e\u003ca class=\"toc-link toc-link-h2\" href=\"#概要\"\u003e概要\u003c/a\u003e\u003c/li\u003e\u003cli class=\"toc-item toc-item-h2\"\u003e\u003ca class=\"toc-link toc-link-h2\" href=\"#バイナリファイルの入手\"\u003eバイナリファイルの入手\u003c/a\u003e\u003c/li\u003e\u003cli class=\"toc-item toc-item-h2\"\u003e\u003ca class=\"toc-link toc-link-h2\" href=\"#streamオブジェクト\"\u003eStreamオブジェクト\u003c/a\u003e\u003c/li\u003e\u003cli class=\"toc-item toc-item-h2\"\u003e\u003ca class=\"toc-link toc-link-h2\" href=\"#訓練用画像を表示する\"\u003e訓練用画像を表示する\u003c/a\u003e\u003c/li\u003e\u003c/ol\u003e\u003c/nav\u003e\u003ch2 id=\"概要\"\u003e概要\u003c/h2\u003e\n\u003cp\u003eADO.Streamオブジェクトを使ってバイナリファイルを読む。\u003c/p\u003e\n\u003ch2 id=\"バイナリファイルの入手\"\u003eバイナリファイルの入手\u003c/h2\u003e\n\u003cp\u003eニューラルネットワークの訓練と評価に使用されている、MNISTデータベース(手書き数字画像のデータ)を \u003ca href=\"https://yann.lecun.com/exdb/mnist/\"\u003ehttps://yann.lecun.com/exdb/mnist/\u003c/a\u003e からダウンロードする。\u003c/p\u003e\n\u003cp\u003e注) 2024年11月11日現在、ダウンロードできなかった。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003etrain-images-idx3-ubyte.gz\u003c/li\u003e\n\u003cli\u003etrain-labels-idx1-ubyte.gz\u003c/li\u003e\n\u003cli\u003et10k-images-idx3-ubyte.gz\u003c/li\u003e\n\u003cli\u003et10k-labels-idx1-ubyte.gz\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e圧縮されているので7-Zipなどを使って展開する。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eファイル名\u003c/th\u003e\n\u003cth\u003e説明\u003c/th\u003e\n\u003cth\u003eByte\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003etrain-images.idx3-ubyte\u003c/td\u003e\n\u003ctd\u003e60,000枚分の訓練用画像\u003c/td\u003e\n\u003ctd\u003e47,040,016\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003etrain-labels.idx1-ubyte\u003c/td\u003e\n\u003ctd\u003e訓練用画像の正解ラベル\u003c/td\u003e\n\u003ctd\u003e60,008\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003et10k-images.idx3-ubyte\u003c/td\u003e\n\u003ctd\u003e10,000枚分の評価用画像\u003c/td\u003e\n\u003ctd\u003e7,840,016\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003et10k-labels.idx1-ubyte\u003c/td\u003e\n\u003ctd\u003e評価用画像の正解ラベル\u003c/td\u003e\n\u003ctd\u003e10,008\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003eこれらはバイナリファイルであり、1枚ずつの画像ファイルではない。\u003c/p\u003e\n\u003ch3 id=\"train-imagesidx3-ubytet10k-imagesidx3-ubyteのファイル構造\"\u003etrain-images.idx3-ubyte、t10k-images.idx3-ubyteのファイル構造\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eデータ\u003c/th\u003e\n\u003cth\u003eサイズ\u003c/th\u003e\n\u003cth\u003e説明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eヘッダー\u003c/td\u003e\n\u003ctd\u003e16byte\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e1枚目\u003c/td\u003e\n\u003ctd\u003e784byte\u003c/td\u003e\n\u003ctd\u003e横28×縦28=784ピクセル\u003cbr/\u003e1ピクセルあたり1byteで0～255のグレースケールを表す\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e...\u003c/td\u003e\n\u003ctd\u003e...\u003c/td\u003e\n\u003ctd\u003e...\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003en枚目\u003c/td\u003e\n\u003ctd\u003e784byte\u003c/td\u003e\n\u003ctd\u003e同上\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cul\u003e\n\u003cli\u003e16byte+784byte/枚×60,000枚=47,040,016byte\u003c/li\u003e\n\u003cli\u003e16byte+784byte/枚×10,000枚=7,840,016byte\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3 id=\"train-labelsidx1-ubytet10k-labelsidx1-ubyteのファイル構造\"\u003etrain-labels.idx1-ubyte、t10k-labels.idx1-ubyteのファイル構造\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eデータ\u003c/th\u003e\n\u003cth\u003eサイズ\u003c/th\u003e\n\u003cth\u003e説明\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eヘッダー\u003c/td\u003e\n\u003ctd\u003e8byte\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e1枚目\u003c/td\u003e\n\u003ctd\u003e1byte\u003c/td\u003e\n\u003ctd\u003e0～9のいずれかの数値を表している\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e...\u003c/td\u003e\n\u003ctd\u003e...\u003c/td\u003e\n\u003ctd\u003e...\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003en枚目\u003c/td\u003e\n\u003ctd\u003e1byte\u003c/td\u003e\n\u003ctd\u003e同上\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cul\u003e\n\u003cli\u003e8byte+1byte/枚×60,000枚=60,008byte\u003c/li\u003e\n\u003cli\u003e8byte+1byte/枚×10,000枚=10,008byte\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"streamオブジェクト\"\u003eStreamオブジェクト\u003c/h2\u003e\n\u003cp\u003eStreamオブジェクトはテキストファイルやバイナリファイルを開くことができる。\u003c/p\u003e\n\u003ch3 id=\"プロパティ\"\u003eプロパティ\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eプロパティ\u003c/th\u003e\n\u003cth\u003e説明\u003c/th\u003e\n\u003cth\u003e備考\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eCharset\u003c/td\u003e\n\u003ctd\u003e保存するときの文字コード\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eEOS\u003c/td\u003e\n\u003ctd\u003eストリーム位置の末尾であればTrue\u003c/td\u003e\n\u003ctd\u003eTrue/False\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eLineSeparator\u003c/td\u003e\n\u003ctd\u003eテキストの改行文字\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eMode\u003c/td\u003e\n\u003ctd\u003eStreamのアクセスモード\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ePosition\u003c/td\u003e\n\u003ctd\u003eStream内の現在位置\u003c/td\u003e\n\u003ctd\u003e先頭は0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSize\u003c/td\u003e\n\u003ctd\u003eStreamのバイト数\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eState\u003c/td\u003e\n\u003ctd\u003eStreamの状態\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eType\u003c/td\u003e\n\u003ctd\u003eStream内のデータ型\u003c/td\u003e\n\u003ctd\u003e1:バイナリ\u003cbr/\u003e2:テキスト\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch3 id=\"メソッド\"\u003eメソッド\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eメソッド\u003c/th\u003e\n\u003cth\u003e説明\u003c/th\u003e\n\u003cth\u003e備考\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eCancel\u003c/td\u003e\n\u003ctd\u003e非同期Streamを停止\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eClose\u003c/td\u003e\n\u003ctd\u003eStreamを閉じる\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCopyTo\u003c/td\u003e\n\u003ctd\u003eStreamの内容を別のStreamにコピーする\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eFlush\u003c/td\u003e\n\u003ctd\u003eStreamの基になるオブジェクトに書き込む\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eLoadFromFile\u003c/td\u003e\n\u003ctd\u003eファイルを開く\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eOpen\u003c/td\u003e\n\u003ctd\u003eStreamを開く\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eRead\u003c/td\u003e\n\u003ctd\u003eStreamからバイトを読み取る\u003c/td\u003e\n\u003ctd\u003eType=1のとき\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eReadText\u003c/td\u003e\n\u003ctd\u003eStreamからテキストを読み取る\u003c/td\u003e\n\u003ctd\u003eType=2のとき\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSaveToFile\u003c/td\u003e\n\u003ctd\u003eファイルに保存する\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSetEOS\u003c/td\u003e\n\u003ctd\u003eストリーム位置の末尾を設定する\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSkipLine\u003c/td\u003e\n\u003ctd\u003e行をスキップする\u003c/td\u003e\n\u003ctd\u003eType=2のとき\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eWrite\u003c/td\u003e\n\u003ctd\u003eバイトをStreamに入力する\u003c/td\u003e\n\u003ctd\u003eType=1のとき\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eWriteText\u003c/td\u003e\n\u003ctd\u003eテキストをStreamに入力する\u003c/td\u003e\n\u003ctd\u003eType=2のとき\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch3 id=\"参考\"\u003e参考\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://learn.microsoft.com/ja-jp/sql/ado/reference/ado-api/stream-object-ado?source=recommendations\u0026#x26;view=sql-server-ver16\"\u003eStreamオブジェクト(ADO)(MicroSoft)\u003c/a\u003e\u003c/p\u003e\n\u003ch2 id=\"訓練用画像を表示する\"\u003e訓練用画像を表示する\u003c/h2\u003e\n\u003cp\u003eバイナリファイルからデータを取得し、疑似的な画像をダイアログボックス上に表示する。\u003cbr\u003e\n表示させるデータはランダムに決定する。\u003c/p\u003e\n\u003ch3 id=\"プログラムの説明\"\u003eプログラムの説明\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003eStreamオブジェクトをバイナリモードで開いて、LoadFromFileでファイルを取得する。\u003c/li\u003e\n\u003cli\u003eStreamオブジェクトのReadメソッドで1バイトずつのバイトデータを読む。\u003c/li\u003e\n\u003cli\u003e読むたびに、現在位置は次のバイトへ移動する。\u003c/li\u003e\n\u003cli\u003eバイトデータにAscB関数を使って0～255の数値へ変換する。\u003c/li\u003e\n\u003cli\u003e数値が127以下なら□、128以上なら■として疑似画像を構成する。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cpre\u003e\u003ccode class=\"hljs language-vbs\"\u003e\u003cspan class=\"hljs-comment\"\u003e'手書き数字画像のバイナリファイルを読んで、疑似的な画像を表示する\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003eDim\u003c/span\u003e path1, path2\n\n\u003cspan class=\"hljs-comment\"\u003e'MNISTデータベースファイルをC:\\samplesに保存している場合\u003c/span\u003e\npath1 = \u003cspan class=\"hljs-string\"\u003e\"C:\\samples\\train-images.idx3-ubyte\"\u003c/span\u003e \u003cspan class=\"hljs-comment\"\u003e'画像データ\u003c/span\u003e\npath2 = \u003cspan class=\"hljs-string\"\u003e\"C:\\samples\\train-labels.idx1-ubyte\"\u003c/span\u003e \u003cspan class=\"hljs-comment\"\u003e'値データ\u003c/span\u003e\n\n\u003cspan class=\"hljs-keyword\"\u003eDim\u003c/span\u003e strm1, strm2\n\n\u003cspan class=\"hljs-keyword\"\u003eSet\u003c/span\u003e strm1 = \u003cspan class=\"hljs-built_in\"\u003eCreateObject\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\"ADODB.Stream\"\u003c/span\u003e)\n\u003cspan class=\"hljs-keyword\"\u003eSet\u003c/span\u003e strm2 = \u003cspan class=\"hljs-built_in\"\u003eCreateObject\u003c/span\u003e(\u003cspan class=\"hljs-string\"\u003e\"ADODB.Stream\"\u003c/span\u003e)\n\nstrm1.Type = \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \u003cspan class=\"hljs-comment\"\u003e'BINARY\u003c/span\u003e\nstrm1.Open\nstrm1.LoadFromFile(path1)\n\nstrm2.Type = \u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e \u003cspan class=\"hljs-comment\"\u003e'BINARY\u003c/span\u003e\nstrm2.Open\nstrm2.LoadFromFile(path2)\n\n\u003cspan class=\"hljs-keyword\"\u003eCall\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eRandomize\u003c/span\u003e() \u003cspan class=\"hljs-comment\"\u003e'乱数ジェネレータを初期化\u003c/span\u003e\n\n\u003cspan class=\"hljs-keyword\"\u003eDim\u003c/span\u003e num, img, lbl\n\n\u003cspan class=\"hljs-comment\"\u003e'キャンセルボタンが押されるまで繰り返す\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003eDo\u003c/span\u003e\n    num = \u003cspan class=\"hljs-built_in\"\u003eInt\u003c/span\u003e(Rnd * \u003cspan class=\"hljs-number\"\u003e60000\u003c/span\u003e) \u003cspan class=\"hljs-comment\"\u003e'0～59999のランダムな整数\u003c/span\u003e\n    img = GetImage(num, strm1) \u003cspan class=\"hljs-comment\"\u003e'文字で作った疑似的な画像\u003c/span\u003e\n    lbl = GetValue(num, strm2) \u003cspan class=\"hljs-comment\"\u003e'正解の数値\u003c/span\u003e\n\n    \u003cspan class=\"hljs-comment\"\u003e'表示する\u003c/span\u003e\n    \u003cspan class=\"hljs-keyword\"\u003eIf\u003c/span\u003e \u003cspan class=\"hljs-built_in\"\u003eMsgbox\u003c/span\u003e(img, vbOKCancel, \u003cspan class=\"hljs-string\"\u003e\"正解: \"\u003c/span\u003e \u0026#x26; lbl) = vbCancel \u003cspan class=\"hljs-keyword\"\u003eThen\u003c/span\u003e\n        \u003cspan class=\"hljs-keyword\"\u003eExit\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eDo\u003c/span\u003e\n    \u003cspan class=\"hljs-keyword\"\u003eEnd\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eIf\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003eLoop\u003c/span\u003e\n\nstrm1.Close\nstrm2.Close\n\u003cspan class=\"hljs-comment\"\u003e'以上で終了\u003c/span\u003e\n\n\n\u003cspan class=\"hljs-keyword\"\u003eFunction\u003c/span\u003e GetImage(n, sm)\n\u003cspan class=\"hljs-comment\"\u003e'文字で作った疑似的な画像を取得する\u003c/span\u003e\n    \u003cspan class=\"hljs-keyword\"\u003eDim\u003c/span\u003e i, j \u003cspan class=\"hljs-comment\"\u003e'画像の横と縦の座標\u003c/span\u003e\n    \u003cspan class=\"hljs-keyword\"\u003eDim\u003c/span\u003e bt\n    \u003cspan class=\"hljs-keyword\"\u003eDim\u003c/span\u003e buf\n\n    sm.Position = \u003cspan class=\"hljs-number\"\u003e16\u003c/span\u003e + \u003cspan class=\"hljs-number\"\u003e784\u003c/span\u003e * n \u003cspan class=\"hljs-comment\"\u003e'現在位置をn+1番目の画像データの先頭に移動する\u003c/span\u003e\n    \n    \u003cspan class=\"hljs-comment\"\u003e'1画像の各ピクセルデータから□と■で作成した疑似的な画像を作成する\u003c/span\u003e\n    \u003cspan class=\"hljs-keyword\"\u003eFor\u003c/span\u003e j = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eTo\u003c/span\u003e \u003cspan class=\"hljs-number\"\u003e27\u003c/span\u003e\n        \u003cspan class=\"hljs-keyword\"\u003eFor\u003c/span\u003e i = \u003cspan class=\"hljs-number\"\u003e0\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eTo\u003c/span\u003e \u003cspan class=\"hljs-number\"\u003e27\u003c/span\u003e\n            bt = AscB(sm.Read(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e)) \u003cspan class=\"hljs-comment\"\u003e'1バイト読んで数字に変換\u003c/span\u003e\n            \u003cspan class=\"hljs-keyword\"\u003eIf\u003c/span\u003e bt \u0026#x3C; \u003cspan class=\"hljs-number\"\u003e128\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eThen\u003c/span\u003e\n                buf = buf \u0026#x26; \u003cspan class=\"hljs-string\"\u003e\"□\"\u003c/span\u003e\n            \u003cspan class=\"hljs-keyword\"\u003eElse\u003c/span\u003e\n                buf = buf \u0026#x26; \u003cspan class=\"hljs-string\"\u003e\"■\"\u003c/span\u003e\n            \u003cspan class=\"hljs-keyword\"\u003eEnd\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eIf\u003c/span\u003e\n        \u003cspan class=\"hljs-keyword\"\u003eNext\u003c/span\u003e\n        buf = buf \u0026#x26; vbCr\n    \u003cspan class=\"hljs-keyword\"\u003eNext\u003c/span\u003e\n\n    GetImage = buf\n\u003cspan class=\"hljs-keyword\"\u003eEnd\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eFunction\u003c/span\u003e\n\n\n\u003cspan class=\"hljs-keyword\"\u003eFunction\u003c/span\u003e GetValue(n, sm)\n\u003cspan class=\"hljs-comment\"\u003e'正解の数値を取得する\u003c/span\u003e\n    sm.Position = \u003cspan class=\"hljs-number\"\u003e8\u003c/span\u003e + n \u003cspan class=\"hljs-comment\"\u003e'現在位置をn+1番目の値データに移動する\u003c/span\u003e\n    GetValue = AscB(sm.Read(\u003cspan class=\"hljs-number\"\u003e1\u003c/span\u003e)) \u003cspan class=\"hljs-comment\"\u003e'1バイト読んで数字に変換\u003c/span\u003e\n\u003cspan class=\"hljs-keyword\"\u003eEnd\u003c/span\u003e \u003cspan class=\"hljs-keyword\"\u003eFunction\u003c/span\u003e\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3 id=\"実行結果\"\u003e実行結果\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"./assets/img/mnist/mnist.jpg\" alt=\"実行結果\"\u003e\u003c/p\u003e"])</script><script>self.__next_f.push([1,"6:[\"$\",\"article\",null,{\"className\":\"mb-32 pt-6 lg:px-6\",\"children\":[[[\"$\",\"h1\",null,{\"className\":\"text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-left\",\"children\":\"バイナリファイルを読む\"}],[\"$\",\"div\",null,{\"className\":\"mb-6 text-lg\",\"children\":[\"$\",\"time\",null,{\"dateTime\":\"2024-11-11T00:00:00.000Z\",\"children\":\"2024/11/11\"}]}]],[\"$\",\"div\",null,{\"className\":\"markdown-styles_markdown__ORfR8\",\"dangerouslySetInnerHTML\":{\"__html\":\"$12\"}}]]}]\nf:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"バイナリファイルを読む | VBScriptさんま屋\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"VBScriptの個人的なメモです\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"バイナリファイルを読む\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"VBScriptの個人的なメモです\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"https://www.sammaya.jp/test/assets/img/stars.jpg\"}],[\"$\",\"meta\",\"7\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"8\",{\"name\":\"twitter:title\",\"content\":\"バイナリファイルを読む\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:description\",\"content\":\"VBScriptの個人的なメモです\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:image\",\"content\":\"https://www.sammaya.jp/test/assets/img/stars.jpg\"}]]\n5:null\n"])</script></body></html>

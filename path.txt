@@ -1,0 +1,339 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+6:I[76,["185","static/chunks/app/layout-a24cc29d45a5ce04.js"],"ThemeSwitcher"]
+4:["slug","path","d"]
+7:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+8:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+9:{"display":"inline-block"}
+a:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["AMkc6tatsjp8p4K3-VcRn",[[["",{"children":["(blog)",{"children":[["slug","path","d"],{"children":["__PAGE__?{\"slug\":\"path\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["(blog)",{"children":[["slug","path","d"],{"children":["__PAGE__",{},[["$L1","$L2",[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/b6dd24d3fdd5bfe9.css","precedence":"next","crossOrigin":"$undefined"}]]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(blog)","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/ce90c4206395b4a9.css","precedence":"next","crossOrigin":"$undefined"}]],["$","main",null,{"children":["$","div",null,{"className":"p-1 md:p-8","children":["$","div",null,{"className":"lg:flex py-2","children":[["$","div",null,{"className":"sidebar overflow-x-visible lg:border-r lg:overflow-y-scroll py-4 min-w-80 lg:w-1/5","children":["$","nav",null,{"children":[["$","input",null,{"id":"ac-toc","type":"checkbox","className":"peer/toc hidden"}],["$","label",null,{"htmlFor":"ac-toc","className":"   accodiontoc mb-1   relative before:absolute after:absolute    z-10 after:z-11 before:z-12   peer-checked/toc:hover:after:-rotate-90   peer-checked/toc:bg-[#333]   peer-checked/toc:text-white   peer-checked/toc:before:bg-white   peer-checked/toc:after:bg-white   after:duration-300   py-2 pl-4 pr-10    text-xs font-bold   border border-solid rounded   border-white hover:border-[#bdc1c4]   inline-block   text-[#7a8288] hover:text-white   hover:bg-[#333]   before:content-[''] after:content-['']   before:w-2.5 before:h-0.5 after:w-0.5 after:h-2.5   before:right-4 before:top-4 after:right-5  after:top-3   before:bg-[#7a8288] after:bg-[#7a8288]   hover:after:bg-white hover:before:bg-white   lg:hidden   ","children":"メニュー"}],["$","div",null,{"className":"hidden lg:block peer-checked/toc:block mt-8 lg:mt-4","children":["$","section",null,{"children":[["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/helloworld","className":"hover:underline","children":"Hello, World!と表示させる"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/msgbox","className":"hover:underline","children":"MsgBox関数"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/inputbox","className":"hover:underline","children":"InputBox関数"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/array","className":"hover:underline","children":"配列(1) 配列の作り方"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/filter","className":"hover:underline","children":"配列(2) 配列の操作"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/fso","className":"hover:underline","children":"FileSystemObjectオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/path","className":"hover:underline","children":"ファイル名、パス名を取得する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/file","className":"hover:underline","children":"File、Folder、Drive、TextStreamオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/rename","className":"hover:underline","children":"ファイル名の頭に日付を加える"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/filelist","className":"hover:underline","children":"ファイル一覧を取得する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb1","className":"hover:underline","children":"Access形式データベースへの接続（1）OLEDBプロバイダー"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb2","className":"hover:underline","children":"Access形式データベースへの接続（2）DBファイルとテーブルの追加"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb3","className":"hover:underline","children":"Access形式データベースへの接続（3）列の追加"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb4","className":"hover:underline","children":"Access形式データベースへの接続（4）レコードの登録と削除"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/adox","className":"hover:underline","children":"ADOとADOXのオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mnist","className":"hover:underline","children":"バイナリファイルを読む"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/class","className":"hover:underline","children":"クラスを自作する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender1","className":"hover:underline","children":"カレンダー計算（1）日付からMJDへの変換"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender2","className":"hover:underline","children":"カレンダー計算（2）MJDから日付への変換"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender3","className":"hover:underline","children":"カレンダー計算（3）万年カレンダー"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/encoder","className":"hover:underline","children":"VBScriptの暗号化"}]}]}]]}]}]]}]}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(blog)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]}]}]],null],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/741e77bcaef201b5.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/vbscript/favicon/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/vbscript/favicon/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/vbscript/favicon/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/vbscript/favicon/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/vbscript/favicon/safari-pinned-tab.svg","color":"#000000"}],["$","link",null,{"rel":"shortcut icon","href":"/vbscript/favicon/favicon.ico"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"msapplication-config","content":"/vbscript/favicon/browserconfig.xml"}],["$","meta",null,{"name":"theme-color","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/vbscript/feed.xml"}]]}],["$","body",null,{"className":"__className_4eacb2 dark:bg-slate-900 dark:text-slate-400","children":[["$","$L6",null,{}],["$","header",null,{"className":"border-b border-neutral-200 dark:bg-stars","children":["$","div",null,{"className":"container px-8","children":["$","div",null,{"className":"py-16 flex flex-col lg:flex-row items-center","children":[["$","h2",null,{"className":"text-2xl lg:text-4xl font-bold tracking-tight lg:tracking-tighter leading-tight lg:w-1/3","children":[["$","a",null,{"href":"/vbscript","className":"hover:underline","children":"VBScriptさんま屋"}],"."]}],["$","h4",null,{"className":"text-center text-lg","children":"VBScriptの個人的なメモです (´・ω・`)"}]]}]}]}],["$","div",null,{"className":"min-h-1/2","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$7","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$8","children":"404"}],["$","div",null,{"style":"$9","children":["$","h2",null,{"style":"$a","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800","children":["$","div",null,{"className":"container px-8","children":["$","div",null,{"className":"py-28 flex flex-col lg:flex-row items-center","children":[["$","h3",null,{"className":"text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2","children":"Statically Generated with Next.js."}],["$","div",null,{"className":"flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2","children":[["$","a",null,{"href":"https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates","className":"mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0","children":"Read Documentation"}],["$","a",null,{"href":"https://github.com/sammaya164/vbscript","className":"mx-3 font-bold hover:underline","children":"View on GitHub"}]]}]]}]}]}]]}]]}]],null],null],["$Lb",null]]]]
+c:T3dbb,<nav class="toc"><ol class="toc-level toc-level-1"><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#概要">概要</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#filesystemobjectのパス関係のメソッド">FileSystemObjectのパス関係のメソッド</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#指定したファイルのファイル名やパスを取得する">指定したファイルのファイル名やパスを取得する</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#buildpathメソッド">BuildPathメソッド</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#getspecialfolderメソッド">GetSpecialFolderメソッド</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#wshshellオブジェクトのspecialfoldersプロパティ">WshShellオブジェクトのSpecialFoldersプロパティ</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#wshshellオブジェクトのcurrentdirectoryプロパティ">WshShellオブジェクトのCurrentDirectoryプロパティ</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#wscriptオブジェクトのパス関係のプロパティ">WScriptオブジェクトのパス関係のプロパティ</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#getabsolutepathnameメソッドについて">GetAbsolutePathNameメソッドについて</a></li></ol></nav><h2 id="概要">概要</h2>
+<p>ファイル名、パス名を取得する方法。</p>
+<h2 id="filesystemobjectのパス関係のメソッド">FileSystemObjectのパス関係のメソッド</h2>
+<table>
+<thead>
+<tr>
+<th>メソッド</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GetAbsolutePathName</td>
+<td>フルパスを返す</td>
+</tr>
+<tr>
+<td>GetBaseName</td>
+<td>拡張子を除いたファイル名を返す</td>
+</tr>
+<tr>
+<td>GetExtensionName</td>
+<td>拡張子を返す</td>
+</tr>
+<tr>
+<td>GetFileName</td>
+<td>ファイル名を返す</td>
+</tr>
+<tr>
+<td>GetDriveName</td>
+<td>ドライブ名を返す</td>
+</tr>
+<tr>
+<td>GetParentFolderName</td>
+<td>親フォルダ名を返す</td>
+</tr>
+<tr>
+<td>BuildPath</td>
+<td>文字列をつないでパスを返す</td>
+</tr>
+<tr>
+<td>GetSpecialFolder</td>
+<td>特殊フォルダのパスを返す</td>
+</tr>
+</tbody>
+</table>
+<h2 id="指定したファイルのファイル名やパスを取得する">指定したファイルのファイル名やパスを取得する</h2>
+<p>以下のスクリプトファイルは、テキストファイル<code>test.txt</code>と一緒に<code>C:\Script</code>フォルダ内に置いてあるとする。</p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> fso, path
+<span class="hljs-keyword">Set</span> fso = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"Scripting.FileSystemObject"</span>)
+
+<span class="hljs-comment">'フルパスで指定した場合</span>
+path = <span class="hljs-string">"C:¥Script¥test.txt"</span>
+Msgbox fso.GetAbsolutePathName(path) <span class="hljs-comment">'C:¥Script¥test.txt</span>
+Msgbox fso.GetBaseName(path)         <span class="hljs-comment">'test</span>
+Msgbox fso.GetExtensionName(path)    <span class="hljs-comment">'txt</span>
+Msgbox fso.GetFileName(path)         <span class="hljs-comment">'test.txt</span>
+Msgbox fso.GetDriveName(path)        <span class="hljs-comment">'C:</span>
+Msgbox fso.GetParentFolderName(path) <span class="hljs-comment">'C:¥Script</span>
+
+<span class="hljs-comment">'ファイル名で指定した場合</span>
+path = <span class="hljs-string">"test.txt"</span>
+Msgbox fso.GetAbsolutePathName(path) <span class="hljs-comment">'C:¥Script¥test.txt</span>
+Msgbox fso.GetBaseName(path)         <span class="hljs-comment">'test</span>
+Msgbox fso.GetExtensionName(path)    <span class="hljs-comment">'txt</span>
+Msgbox fso.GetFileName(path)         <span class="hljs-comment">'test.txt</span>
+Msgbox fso.GetDriveName(path)        <span class="hljs-comment">'</span>
+Msgbox fso.GetParentFolderName(path) <span class="hljs-comment">'</span>
+
+<span class="hljs-comment">'長さ0の文字列で指定した場合</span>
+path = <span class="hljs-string">""</span>
+Msgbox fso.GetAbsolutePathName(path) <span class="hljs-comment">'C:¥Script</span>
+Msgbox fso.GetBaseName(path)         <span class="hljs-comment">'</span>
+Msgbox fso.GetExtensionName(path)    <span class="hljs-comment">'</span>
+Msgbox fso.GetFileName(path)         <span class="hljs-comment">'</span>
+Msgbox fso.GetDriveName(path)        <span class="hljs-comment">'</span>
+Msgbox fso.GetParentFolderName(path) <span class="hljs-comment">'</span>
+
+<span class="hljs-comment">'現在の作業フォルダで指定した場合</span>
+path = <span class="hljs-string">"."</span>
+Msgbox fso.GetAbsolutePathName(path) <span class="hljs-comment">'C:¥Script</span>
+Msgbox fso.GetBaseName(path)         <span class="hljs-comment">'</span>
+Msgbox fso.GetExtensionName(path)    <span class="hljs-comment">'</span>
+Msgbox fso.GetFileName(path)         <span class="hljs-comment">'.</span>
+Msgbox fso.GetDriveName(path)        <span class="hljs-comment">'</span>
+Msgbox fso.GetParentFolderName(path) <span class="hljs-comment">'</span>
+
+<span class="hljs-comment">'現在の作業フォルダの親フォルダで指定した場合</span>
+path = <span class="hljs-string">".."</span>
+Msgbox fso.GetAbsolutePathName(path) <span class="hljs-comment">'C:¥</span>
+Msgbox fso.GetBaseName(path)         <span class="hljs-comment">'.</span>
+Msgbox fso.GetExtensionName(path)    <span class="hljs-comment">'</span>
+Msgbox fso.GetFileName(path)         <span class="hljs-comment">'..</span>
+Msgbox fso.GetDriveName(path)        <span class="hljs-comment">'</span>
+Msgbox fso.GetParentFolderName(path) <span class="hljs-comment">'</span>
+</code></pre>
+<p>引数のファイルが実在しなくてもエラーは発生せず値は返ってくる。</p>
+<h2 id="buildpathメソッド">BuildPathメソッド</h2>
+<p>2つの引数を適宜<code>\</code>を補足してつないだパスを返す。</p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> fso
+<span class="hljs-keyword">Set</span> fso = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"Scripting.FileSystemObject"</span>)
+
+Msgbox fso.BuildPath(<span class="hljs-string">"C:\Script"</span>, <span class="hljs-string">"test.txt"</span>)   <span class="hljs-comment">'C:\Script\test.txt</span>
+Msgbox fso.BuildPath(<span class="hljs-string">"C:\Script\"</span>, <span class="hljs-string">"test.txt"</span>)  <span class="hljs-comment">'C:\Script\test.txt</span>
+Msgbox fso.BuildPath(<span class="hljs-string">"C:\Script"</span>, <span class="hljs-string">"\test.txt"</span>)  <span class="hljs-comment">'C:\Script\test.txt</span>
+Msgbox fso.BuildPath(<span class="hljs-string">"C:\Script\"</span>, <span class="hljs-string">"\test.txt"</span>) <span class="hljs-comment">'C:\Script\test.txt</span>
+Msgbox fso.BuildPath(<span class="hljs-string">"C:\Script\test.txt"</span>, <span class="hljs-string">"new.txt"</span>) <span class="hljs-comment">'C:\Script\test.txt\new.txt</span>
+Msgbox fso.BuildPath(<span class="hljs-string">"C:"</span>, <span class="hljs-string">"test.txt"</span>)          <span class="hljs-comment">'C:test.txt</span>
+Msgbox fso.BuildPath(<span class="hljs-string">"C:\"</span>, <span class="hljs-string">"test.txt"</span>)         <span class="hljs-comment">'C:\test.txt</span>
+</code></pre>
+<p>ただし下から2番目の場合は<code>\</code>を補足してくれない。</p>
+<h2 id="getspecialfolderメソッド">GetSpecialFolderメソッド</h2>
+<p>特殊フォルダを取得できる。</p>
+<table>
+<thead>
+<tr>
+<th>引数</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Windowsフォルダ</td>
+</tr>
+<tr>
+<td>1</td>
+<td>システムフォルダ</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tempフォルダ</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> fso
+<span class="hljs-keyword">Set</span> fso = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"Scripting.FileSystemObject"</span>)
+
+Msgbox fso.GetSpecialFolder(<span class="hljs-number">0</span>) <span class="hljs-comment">'C:\Windows</span>
+Msgbox fso.GetSpecialFolder(<span class="hljs-number">1</span>) <span class="hljs-comment">'C:\Windows\System32</span>
+Msgbox fso.GetSpecialFolder(<span class="hljs-number">2</span>) <span class="hljs-comment">'C:\Users\ログインユーザ\AppData\Local\Temp</span>
+</code></pre>
+<p>上記のGetSpecialFolderメソッドで取得できるのはフォルダオブジェクトだが、Msgboxに渡されるとパス(デフォルトプロパティ)が表示される。</p>
+<h2 id="wshshellオブジェクトのspecialfoldersプロパティ">WshShellオブジェクトのSpecialFoldersプロパティ</h2>
+<p>SpecialFoldersコレクションを取得し、特殊フォルダのパスを取得できる。</p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> col
+<span class="hljs-keyword">Set</span> col = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"WScript.Shell"</span>).SpecialFolders
+
+Msgbox col(<span class="hljs-number">0</span>)                 <span class="hljs-comment">'C:\Users\Public\Desktop</span>
+Msgbox col(<span class="hljs-string">"AllUsersDesktop"</span>) <span class="hljs-comment">'C:\Users\Public\Desktop</span>
+</code></pre>
+<h3 id="取得できるパス一覧">取得できるパス一覧</h3>
+<table>
+<thead>
+<tr>
+<th>数値</th>
+<th>指定名</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>AllUsersDesktop</td>
+<td>全ユーザ共通のデスクトップ</td>
+</tr>
+<tr>
+<td>1</td>
+<td>AllUsersStartMenu</td>
+<td>全ユーザ共通のスタートメニュー</td>
+</tr>
+<tr>
+<td>2</td>
+<td>AllUsersPrograms</td>
+<td>全ユーザ共通のスタートメニューのプログラムフォルダ</td>
+</tr>
+<tr>
+<td>3</td>
+<td>AllUsersStartup</td>
+<td>全ユーザ共通のスタートアップフォルダ</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Desktop</td>
+<td>デスクトップ</td>
+</tr>
+<tr>
+<td>5</td>
+<td>AppData</td>
+<td>アプリケーションデータ</td>
+</tr>
+<tr>
+<td>6</td>
+<td>PrintHood</td>
+<td>プリンタ</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Templates</td>
+<td>テンプレート</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Fonts</td>
+<td>フォント</td>
+</tr>
+<tr>
+<td>9</td>
+<td>NetHood</td>
+<td>ネットワーク</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Desktop</td>
+<td>デスクトップ</td>
+</tr>
+<tr>
+<td>11</td>
+<td>StartMenu</td>
+<td>スタートメニュー</td>
+</tr>
+<tr>
+<td>12</td>
+<td>SendTo</td>
+<td>送るフォルダ</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Recent</td>
+<td>最近使ったファイル</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Startup</td>
+<td>スタートアップフォルダ</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Favorites</td>
+<td>お気に入り</td>
+</tr>
+<tr>
+<td>16</td>
+<td>MyDocuments</td>
+<td>マイドキュメント</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Programs</td>
+<td>プログラムフォルダ</td>
+</tr>
+</tbody>
+</table>
+<h2 id="wshshellオブジェクトのcurrentdirectoryプロパティ">WshShellオブジェクトのCurrentDirectoryプロパティ</h2>
+<p>現在の作業フォルダの取得と変更ができる。</p>
+<h3 id="使用例">使用例</h3>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> shell
+<span class="hljs-keyword">Set</span> shell = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"WScript.Shell"</span>)
+
+<span class="hljs-comment">'取得</span>
+Msgbox shell.CurrentDirectory      <span class="hljs-comment">'C:\Script</span>
+
+<span class="hljs-comment">'変更</span>
+shell.CurrentDirectory = <span class="hljs-string">"C:\Test"</span>
+Msgbox shell.CurrentDirectory      <span class="hljs-comment">'C:\Test</span>
+</code></pre>
+<p>VBAだと<code>ChDir</code>と<code>ChDrive</code>を使って現在の作業フォルダを変更できるが、ネットワーク上の共有フォルダを指定するには、ネットワークドライブを設定しておく必要があった。<br>
+VBAでも上記のやり方で、ネットワーク上の共有フォルダを指定できて、「ファイルを開く」ダイアログボックスの初期に表示されるフォルダを制御できる。</p>
+<h2 id="wscriptオブジェクトのパス関係のプロパティ">WScriptオブジェクトのパス関係のプロパティ</h2>
+<p>WSHプログラムや実行中のスクリプトのパスを取得できる。</p>
+<table>
+<thead>
+<tr>
+<th>プロパティ</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td><code>Windows Script Host</code>という文字列</td>
+</tr>
+<tr>
+<td>Path</td>
+<td>Windows Script Hostプログラムがある場所</td>
+</tr>
+<tr>
+<td>ScriptName</td>
+<td>スクリプトファイルのファイル名</td>
+</tr>
+<tr>
+<td>ScriptFullName</td>
+<td>スクリプトファイルのフルパス</td>
+</tr>
+</tbody>
+</table>
+<h3 id="使用例-1">使用例</h3>
+<pre><code class="hljs language-vbs">Msgbox WScript.Name
+Msgbox WScript.Path
+Msgbox WScript.ScriptName
+Msgbox WScript.ScriptFullName
+</code></pre>
+<h2 id="getabsolutepathnameメソッドについて">GetAbsolutePathNameメソッドについて</h2>
+<p>起動したスクリプトファイルと同じフォルダ内にある<code>test.txt</code>の絶対パスを取得したい場合</p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> fso, buf
+
+<span class="hljs-keyword">Set</span> fso = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"Scripting.FileSystemObject"</span>)
+buf = fso.GetAbsolutePathName(<span class="hljs-string">"test.txt"</span>)
+</code></pre>
+<p>で取得できるが、フォルダがネットワーク上の共有フォルダである場合は(共有フォルダでなくローカルのシステムフォルダが作業フォルダになってしまうので)うまくいかない。その場合は</p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> fso, buf
+
+<span class="hljs-keyword">Set</span> fso = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"Scripting.FileSystemObject"</span>)
+buf = fso.GetParentFolderName(WScript.ScriptFullName) &#x26; <span class="hljs-string">"\"</span> &#x26; <span class="hljs-string">"test.txt"</span>
+</code></pre>
+<p>で取得できる。ただし以下のやり方でも取得できる。</p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> fso, buf
+
+<span class="hljs-keyword">Set</span> fso = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"Scripting.FileSystemObject"</span>)
+buf = fso.GetAbsolutePathName(WScript.ScriptFullName &#x26; <span class="hljs-string">"\..\test.txt"</span>)
+</code></pre>
+<p><code>test.txt</code>がスクリプトファイルの一つ上の階層にある場合も、以下のようにすればよい。</p>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> fso, buf
+
+<span class="hljs-keyword">Set</span> fso = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"Scripting.FileSystemObject"</span>)
+buf = fso.GetAbsolutePathName(WScript.ScriptFullName &#x26; <span class="hljs-string">"\..\..\test.txt"</span>)
+</code></pre>
+<p><code>GetParentFolderName</code>を2重に適用するよりは、こちらのほうが使いやすい。</p>2:["$","article",null,{"className":"mb-32 pt-6 lg:px-6","children":[[["$","h1",null,{"className":"text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-left","children":"ファイル名、パス名を取得する"}],["$","div",null,{"className":"mb-6 text-lg","children":["$","time",null,{"dateTime":"2024-11-02T00:00:00.000Z","children":"2024/11/02"}]}]],["$","div",null,{"className":"markdown-styles_markdown__ORfR8","dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"ファイル名、パス名を取得する | VBScriptさんま屋"}],["$","meta","3",{"name":"description","content":"VBScriptの個人的なメモです"}],["$","meta","4",{"property":"og:title","content":"ファイル名、パス名を取得する"}],["$","meta","5",{"property":"og:description","content":"VBScriptの個人的なメモです"}],["$","meta","6",{"property":"og:image","content":"https://www.sammaya.jp/test/assets/img/stars.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"ファイル名、パス名を取得する"}],["$","meta","9",{"name":"twitter:description","content":"VBScriptの個人的なメモです"}],["$","meta","10",{"name":"twitter:image","content":"https://www.sammaya.jp/test/assets/img/stars.jpg"}]]
+1:null

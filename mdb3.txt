@@ -1,0 +1,400 @@
+3:I[4707,[],""]
+5:I[6423,[],""]
+6:I[76,["185","static/chunks/app/layout-a24cc29d45a5ce04.js"],"ThemeSwitcher"]
+4:["slug","mdb3","d"]
+7:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+8:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+9:{"display":"inline-block"}
+a:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["AMkc6tatsjp8p4K3-VcRn",[[["",{"children":["(blog)",{"children":[["slug","mdb3","d"],{"children":["__PAGE__?{\"slug\":\"mdb3\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["(blog)",{"children":[["slug","mdb3","d"],{"children":["__PAGE__",{},[["$L1","$L2",[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/b6dd24d3fdd5bfe9.css","precedence":"next","crossOrigin":"$undefined"}]]],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(blog)","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/ce90c4206395b4a9.css","precedence":"next","crossOrigin":"$undefined"}]],["$","main",null,{"children":["$","div",null,{"className":"p-1 md:p-8","children":["$","div",null,{"className":"lg:flex py-2","children":[["$","div",null,{"className":"sidebar overflow-x-visible lg:border-r lg:overflow-y-scroll py-4 min-w-80 lg:w-1/5","children":["$","nav",null,{"children":[["$","input",null,{"id":"ac-toc","type":"checkbox","className":"peer/toc hidden"}],["$","label",null,{"htmlFor":"ac-toc","className":"   accodiontoc mb-1   relative before:absolute after:absolute    z-10 after:z-11 before:z-12   peer-checked/toc:hover:after:-rotate-90   peer-checked/toc:bg-[#333]   peer-checked/toc:text-white   peer-checked/toc:before:bg-white   peer-checked/toc:after:bg-white   after:duration-300   py-2 pl-4 pr-10    text-xs font-bold   border border-solid rounded   border-white hover:border-[#bdc1c4]   inline-block   text-[#7a8288] hover:text-white   hover:bg-[#333]   before:content-[''] after:content-['']   before:w-2.5 before:h-0.5 after:w-0.5 after:h-2.5   before:right-4 before:top-4 after:right-5  after:top-3   before:bg-[#7a8288] after:bg-[#7a8288]   hover:after:bg-white hover:before:bg-white   lg:hidden   ","children":"メニュー"}],["$","div",null,{"className":"hidden lg:block peer-checked/toc:block mt-8 lg:mt-4","children":["$","section",null,{"children":[["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/helloworld","className":"hover:underline","children":"Hello, World!と表示させる"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/msgbox","className":"hover:underline","children":"MsgBox関数"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/inputbox","className":"hover:underline","children":"InputBox関数"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/array","className":"hover:underline","children":"配列(1) 配列の作り方"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/filter","className":"hover:underline","children":"配列(2) 配列の操作"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/fso","className":"hover:underline","children":"FileSystemObjectオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/path","className":"hover:underline","children":"ファイル名、パス名を取得する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/file","className":"hover:underline","children":"File、Folder、Drive、TextStreamオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/rename","className":"hover:underline","children":"ファイル名の頭に日付を加える"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/filelist","className":"hover:underline","children":"ファイル一覧を取得する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb1","className":"hover:underline","children":"Access形式データベースへの接続（1）OLEDBプロバイダー"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb2","className":"hover:underline","children":"Access形式データベースへの接続（2）DBファイルとテーブルの追加"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb3","className":"hover:underline","children":"Access形式データベースへの接続（3）列の追加"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mdb4","className":"hover:underline","children":"Access形式データベースへの接続（4）レコードの登録と削除"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/adox","className":"hover:underline","children":"ADOとADOXのオブジェクト"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/mnist","className":"hover:underline","children":"バイナリファイルを読む"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/class","className":"hover:underline","children":"クラスを自作する"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender1","className":"hover:underline","children":"カレンダー計算（1）日付からMJDへの変換"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender2","className":"hover:underline","children":"カレンダー計算（2）MJDから日付への変換"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/calender3","className":"hover:underline","children":"カレンダー計算（3）万年カレンダー"}]}]}],["$","div",null,{"children":["$","h3",null,{"className":"text-lg mb-3 leading-snug","children":["$","a",null,{"href":"/vbscript/encoder","className":"hover:underline","children":"VBScriptの暗号化"}]}]}]]}]}]]}]}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(blog)","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]]}]}]}]],null],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/vbscript/_next/static/css/741e77bcaef201b5.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/vbscript/favicon/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/vbscript/favicon/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/vbscript/favicon/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/vbscript/favicon/site.webmanifest"}],["$","link",null,{"rel":"mask-icon","href":"/vbscript/favicon/safari-pinned-tab.svg","color":"#000000"}],["$","link",null,{"rel":"shortcut icon","href":"/vbscript/favicon/favicon.ico"}],["$","meta",null,{"name":"msapplication-TileColor","content":"#000000"}],["$","meta",null,{"name":"msapplication-config","content":"/vbscript/favicon/browserconfig.xml"}],["$","meta",null,{"name":"theme-color","content":"#000"}],["$","link",null,{"rel":"alternate","type":"application/rss+xml","href":"/vbscript/feed.xml"}]]}],["$","body",null,{"className":"__className_4eacb2 dark:bg-slate-900 dark:text-slate-400","children":[["$","$L6",null,{}],["$","header",null,{"className":"border-b border-neutral-200 dark:bg-stars","children":["$","div",null,{"className":"container px-8","children":["$","div",null,{"className":"py-16 flex flex-col lg:flex-row items-center","children":[["$","h2",null,{"className":"text-2xl lg:text-4xl font-bold tracking-tight lg:tracking-tighter leading-tight lg:w-1/3","children":[["$","a",null,{"href":"/vbscript","className":"hover:underline","children":"VBScriptさんま屋"}],"."]}],["$","h4",null,{"className":"text-center text-lg","children":"VBScriptの個人的なメモです (´・ω・`)"}]]}]}]}],["$","div",null,{"className":"min-h-1/2","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$7","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$8","children":"404"}],["$","div",null,{"style":"$9","children":["$","h2",null,{"style":"$a","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}],["$","footer",null,{"className":"bg-neutral-50 border-t border-neutral-200 dark:bg-slate-800","children":["$","div",null,{"className":"container px-8","children":["$","div",null,{"className":"py-28 flex flex-col lg:flex-row items-center","children":[["$","h3",null,{"className":"text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2","children":"Statically Generated with Next.js."}],["$","div",null,{"className":"flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2","children":[["$","a",null,{"href":"https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates","className":"mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0","children":"Read Documentation"}],["$","a",null,{"href":"https://github.com/sammaya164/vbscript","className":"mx-3 font-bold hover:underline","children":"View on GitHub"}]]}]]}]}]}]]}]]}]],null],null],["$Lb",null]]]]
+c:T251d,<nav class="toc"><ol class="toc-level toc-level-1"><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#概要">概要</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#テーブルに列を追加する">テーブルに列を追加する</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#テーブルの列を確認する">テーブルの列を確認する</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#columnsコレクション">Columnsコレクション</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#columnオブジェクト">Columnオブジェクト</a></li><li class="toc-item toc-item-h2"><a class="toc-link toc-link-h2" href="#データ型の一覧">データ型の一覧</a></li></ol></nav><h2 id="概要">概要</h2>
+<p>前回、データベースにテーブルを追加したが、列が存在してない。<br>
+テーブルに列を追加する。</p>
+<h2 id="テーブルに列を追加する">テーブルに列を追加する</h2>
+<p>以下の列を追加したい。</p>
+<table>
+<thead>
+<tr>
+<th>名前</th>
+<th>データ型</th>
+<th>サイズ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原子番号</td>
+<td>整数</td>
+<td>4byte</td>
+</tr>
+<tr>
+<td>元素記号</td>
+<td>テキスト</td>
+<td>4byte</td>
+</tr>
+<tr>
+<td>元素名</td>
+<td>テキスト</td>
+<td>16byte</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> cat  <span class="hljs-comment">'Catalogオブジェクト</span>
+<span class="hljs-keyword">Dim</span> cols <span class="hljs-comment">'Columnsコレクション</span>
+
+
+<span class="hljs-comment">'ACCDBファイルに接続する</span>
+<span class="hljs-keyword">Set</span> cat = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"ADOX.Catalog"</span>)
+cat.ActiveConnection = <span class="hljs-string">"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=test.accdb;"</span> 
+
+<span class="hljs-comment">'コレクションを取得する</span>
+<span class="hljs-keyword">Set</span> cols = cat.Tables(<span class="hljs-string">"elements"</span>).Columns
+
+<span class="hljs-comment">'列を追加する</span>
+cols.Append <span class="hljs-string">"原子番号"</span>, <span class="hljs-number">3</span> <span class="hljs-comment">'VBScriptのLong型に対応</span>
+cols.Append <span class="hljs-string">"元素記号"</span>, <span class="hljs-number">202</span>, <span class="hljs-number">4</span> <span class="hljs-comment">'テキスト</span>
+cols.Append <span class="hljs-string">"元素名"</span>, <span class="hljs-number">202</span>, <span class="hljs-number">16</span> <span class="hljs-comment">'テキスト</span>
+</code></pre>
+<h2 id="テーブルの列を確認する">テーブルの列を確認する</h2>
+<pre><code class="hljs language-vbs"><span class="hljs-keyword">Dim</span> cat  <span class="hljs-comment">'Catalogオブジェクト</span>
+<span class="hljs-keyword">Dim</span> cols <span class="hljs-comment">'Columnsコレクション</span>
+
+
+<span class="hljs-comment">'ACCDBファイルに接続する</span>
+<span class="hljs-keyword">Set</span> cat = <span class="hljs-built_in">CreateObject</span>(<span class="hljs-string">"ADOX.Catalog"</span>)
+cat.ActiveConnection = <span class="hljs-string">"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=test.accdb;"</span> 
+
+<span class="hljs-comment">'コレクションを取得する</span>
+<span class="hljs-keyword">Set</span> cols = cat.Tables(<span class="hljs-string">"elements"</span>).Columns
+
+<span class="hljs-keyword">Dim</span> col, buf
+
+<span class="hljs-comment">'各列の名前を取得する</span>
+<span class="hljs-keyword">For</span> <span class="hljs-keyword">Each</span> col <span class="hljs-keyword">In</span> cols
+   buf = buf &#x26; col.Name &#x26; vbCr
+<span class="hljs-keyword">Next</span>
+
+Msgbox buf
+</code></pre>
+<p>以下のように表示される。なぜか、追加したときとは逆順に表示される。</p>
+<pre><code class="hljs language-shell">元素名
+元素記号
+原子番号
+</code></pre>
+<h2 id="columnsコレクション">Columnsコレクション</h2>
+<p>テーブルは一般に複数の列を持つ。</p>
+<h3 id="プロパティ">プロパティ</h3>
+<table>
+<thead>
+<tr>
+<th>プロパティ</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Item</td>
+<td>引数で指定したメンバー(列)を示す</td>
+</tr>
+<tr>
+<td>Count</td>
+<td>メンバー(列)の数</td>
+</tr>
+</tbody>
+</table>
+<h3 id="メソッド">メソッド</h3>
+<table>
+<thead>
+<tr>
+<th>メソッド</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Append</td>
+<td>列を追加する</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>列を削除する</td>
+</tr>
+<tr>
+<td>Refresh</td>
+<td>変更内容を反映する</td>
+</tr>
+</tbody>
+</table>
+<h3 id="appendメソッドの引数">Appendメソッドの引数</h3>
+<table>
+<thead>
+<tr>
+<th>引数</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第1引数</td>
+<td>列の名前</td>
+</tr>
+<tr>
+<td>第2引数</td>
+<td>データ型</td>
+</tr>
+<tr>
+<td>第3引数</td>
+<td>サイズ(Byte)を指定</td>
+</tr>
+</tbody>
+</table>
+<h2 id="columnオブジェクト">Columnオブジェクト</h2>
+<p>1個の列に対応する。</p>
+<table>
+<thead>
+<tr>
+<th>オブジェクト</th>
+<th>プロパティ</th>
+<th>メソッド</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Column</td>
+<td>Name<br/>Type<br/>Attributes<br/>DefinedSize<br/>NumericScale<br/>Precision<br/>ParentCatalog<br/>RelatedColumn<br/>SortOrder<br/>Properties</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="データ型の一覧">データ型の一覧</h2>
+<p>使用頻度が高いのは太字のデータ型。</p>
+<table>
+<thead>
+<tr>
+<th>定数</th>
+<th>値</th>
+<th>サイズ</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>adEmpty</td>
+<td>0</td>
+<td></td>
+<td>EMPTY</td>
+</tr>
+<tr>
+<td>adSmallInt</td>
+<td>2</td>
+<td>2バイト</td>
+<td>符号付き整数<br/>(VBScriptのIntegerに相当)</td>
+</tr>
+<tr>
+<td><strong>adInteger</strong></td>
+<td><strong>3</strong></td>
+<td><strong>4バイト</strong></td>
+<td><strong>符号付き整数<br/>(VBScriptのLongに相当)</strong></td>
+</tr>
+<tr>
+<td>adSIngle</td>
+<td>4</td>
+<td>4バイト</td>
+<td>単精度浮動小数点型</td>
+</tr>
+<tr>
+<td><strong>adDouble</strong></td>
+<td><strong>5</strong></td>
+<td><strong>8バイト</strong></td>
+<td><strong>倍精度浮動小数点型</strong></td>
+</tr>
+<tr>
+<td>adCurrency</td>
+<td>6</td>
+<td>8バイト</td>
+<td>通貨型<br/>(小数点以下4桁の固定小数点型)</td>
+</tr>
+<tr>
+<td><strong>adDate</strong></td>
+<td><strong>7</strong></td>
+<td><strong>8バイト</strong></td>
+<td><strong>日付/時刻型</strong></td>
+</tr>
+<tr>
+<td>adBSTR</td>
+<td>8</td>
+<td></td>
+<td>Unicode文字列</td>
+</tr>
+<tr>
+<td>adError</td>
+<td>10</td>
+<td>4バイト</td>
+<td>エラーコード</td>
+</tr>
+<tr>
+<td><strong>adBoolean</strong></td>
+<td><strong>11</strong></td>
+<td><strong>2バイト</strong></td>
+<td><strong>ブール値</strong></td>
+</tr>
+<tr>
+<td>adDecimal</td>
+<td>14</td>
+<td>16バイト</td>
+<td>正確な数値</td>
+</tr>
+<tr>
+<td>adTinyInt</td>
+<td>16</td>
+<td>1バイト</td>
+<td>符号付き整数</td>
+</tr>
+<tr>
+<td>adUnsignedTinyInt</td>
+<td>17</td>
+<td>1バイト</td>
+<td>符号なし整数</td>
+</tr>
+<tr>
+<td>adUnsignedSmallInt</td>
+<td>18</td>
+<td>2バイト</td>
+<td>符号なし整数</td>
+</tr>
+<tr>
+<td>adUnsignedInt</td>
+<td>19</td>
+<td>4バイト</td>
+<td>符号なし整数</td>
+</tr>
+<tr>
+<td>adBigInt</td>
+<td>20</td>
+<td>8バイト</td>
+<td>符号付き整数</td>
+</tr>
+<tr>
+<td>adUnsignedBigInt</td>
+<td>21</td>
+<td>8バイト</td>
+<td>符号なし整数</td>
+</tr>
+<tr>
+<td>adFileTime</td>
+<td>64</td>
+<td>8バイト</td>
+<td>1601年1月1日からの時間</td>
+</tr>
+<tr>
+<td>adGUID</td>
+<td>72</td>
+<td>16バイト</td>
+<td>GUID、オートナンバー型</td>
+</tr>
+<tr>
+<td>adBinary</td>
+<td>128</td>
+<td></td>
+<td>バイナリ値</td>
+</tr>
+<tr>
+<td>adChar</td>
+<td>129</td>
+<td></td>
+<td>文字列</td>
+</tr>
+<tr>
+<td>adWChar</td>
+<td>130</td>
+<td></td>
+<td>Unicode文字列</td>
+</tr>
+<tr>
+<td>adNumeric</td>
+<td>131</td>
+<td>19バイト</td>
+<td>正確な数値</td>
+</tr>
+<tr>
+<td>adUserDefined</td>
+<td>132</td>
+<td></td>
+<td>ユーザ定義</td>
+</tr>
+<tr>
+<td>adDBDate</td>
+<td>133</td>
+<td>6バイト</td>
+<td>日付</td>
+</tr>
+<tr>
+<td>adDBTime</td>
+<td>134</td>
+<td>6バイト</td>
+<td>時刻</td>
+</tr>
+<tr>
+<td>adDBTimeStamp</td>
+<td>135</td>
+<td>16バイト</td>
+<td>日付/時刻</td>
+</tr>
+<tr>
+<td>adChapter</td>
+<td>136</td>
+<td></td>
+<td>チャプター値</td>
+</tr>
+<tr>
+<td>adPropVariant</td>
+<td>138</td>
+<td></td>
+<td>PROPVARIANT</td>
+</tr>
+<tr>
+<td>adVarNumeric</td>
+<td>139</td>
+<td></td>
+<td>数値</td>
+</tr>
+<tr>
+<td>adVarChar</td>
+<td>200</td>
+<td></td>
+<td>文字列</td>
+</tr>
+<tr>
+<td>adLongVarChar</td>
+<td>201</td>
+<td></td>
+<td>長い文字列</td>
+</tr>
+<tr>
+<td><strong>adVarWChar</strong></td>
+<td><strong>202</strong></td>
+<td></td>
+<td><strong>Unicode文字列</strong></td>
+</tr>
+<tr>
+<td><strong>adLongVarWChar</strong></td>
+<td><strong>203</strong></td>
+<td></td>
+<td><strong>長いUnicode文字列</strong></td>
+</tr>
+<tr>
+<td>adVarBinary</td>
+<td>204</td>
+<td></td>
+<td>バイナリ値</td>
+</tr>
+<tr>
+<td>adLongVarBinary</td>
+<td>205</td>
+<td></td>
+<td>ロングバイナリ値</td>
+</tr>
+</tbody>
+</table>2:["$","article",null,{"className":"mb-32 pt-6 lg:px-6","children":[[["$","h1",null,{"className":"text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight md:leading-none mb-12 text-left","children":"Access形式データベースへの接続（3）列の追加"}],["$","div",null,{"className":"mb-6 text-lg","children":["$","time",null,{"dateTime":"2024-11-08T00:00:00.000Z","children":"2024/11/08"}]}]],["$","div",null,{"className":"markdown-styles_markdown__ORfR8","dangerouslySetInnerHTML":{"__html":"$c"}}]]}]
+b:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Access形式データベースへの接続（3）列の追加 | VBScriptさんま屋"}],["$","meta","3",{"name":"description","content":"VBScriptの個人的なメモです"}],["$","meta","4",{"property":"og:title","content":"Access形式データベースへの接続（3）列の追加"}],["$","meta","5",{"property":"og:description","content":"VBScriptの個人的なメモです"}],["$","meta","6",{"property":"og:image","content":"https://www.sammaya.jp/test/assets/img/stars.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"Access形式データベースへの接続（3）列の追加"}],["$","meta","9",{"name":"twitter:description","content":"VBScriptの個人的なメモです"}],["$","meta","10",{"name":"twitter:image","content":"https://www.sammaya.jp/test/assets/img/stars.jpg"}]]
+1:null
